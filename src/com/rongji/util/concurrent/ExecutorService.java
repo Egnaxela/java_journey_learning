@@ -3,7 +3,7 @@
  * @Description: 
  * Company       rongji
  * @version      1.0
- * @author:      吴有根  
+ * @author:      Eg  
  * @version:     1.0
  * Createdate:   2017年6月30日 下午5:26:03  
  *  
@@ -20,14 +20,14 @@ import java.util.concurrent.TimeoutException;
  * Description:   
  * Copyright:   Copyright (c)2017 
  * Company:     rongji  
- * @author:     吴有根  
+ * @author:     Eg  
  * @version:    1.0  
  * Create at:   2017年6月30日 下午5:26:03  
  *  
  * Modification History:  
  * Date         Author      Version     Description  
  * ------------------------------------------------------------------  
- * 2017年6月30日      吴有根                      1.0         1.0 Version  
+ * 2017年6月30日      Eg                      1.0         1.0 Version  
  */
 
 public interface ExecutorService extends Executor{
@@ -35,7 +35,7 @@ public interface ExecutorService extends Executor{
 	/**
 	 * 
 	* <p>描述:终止前允许执行以前提交的任务</p>
-	* @author 吴有根
+	* @author Eg
 	 */
 	void shutdown();
 	
@@ -43,7 +43,7 @@ public interface ExecutorService extends Executor{
 	 * 
 	* <p>描述:将阻止等待任务的启动并试图停止正在执行的任务</p>
 	* @return
-	* @author 吴有根
+	* @author Eg
 	 */
 	List<Runnable> shutdownNow();
 	
@@ -51,7 +51,7 @@ public interface ExecutorService extends Executor{
 	 * 
 	* <p>描述:此执行程序若关闭返回true</p>
 	* @return
-	* @author 吴有根
+	* @author Eg
 	 */
 	boolean isShutdown();
 	
@@ -60,7 +60,7 @@ public interface ExecutorService extends Executor{
 	* <p>描述:完成关闭所有任务后返回true</p>
 	* 除非先调用shutdown()或shutdownNow()方法，否则则返回值永远不可能为true
 	* @return
-	* @author 吴有根
+	* @author Eg
 	 */
 	boolean isTerminated();
 	
@@ -72,7 +72,7 @@ public interface ExecutorService extends Executor{
 	* @param unit
 	* @return
 	* @throws InterruptedException
-	* @author 吴有根
+	* @author Eg
 	 */
 	boolean awaitTermination(long timeout,TimeUnit unit) throws InterruptedException;
 	
@@ -81,7 +81,7 @@ public interface ExecutorService extends Executor{
 	* <p>描述:提交一个返回值的任务用于执行任务，返回一个表示任务未决结果的Future</p>
 	* @param task
 	* @return
-	* @author 吴有根
+	* @author Eg
 	 */
 	<T> Future<T> submit(Callable<T> task);
 	
@@ -92,7 +92,7 @@ public interface ExecutorService extends Executor{
 	* @param task
 	* @param result
 	* @return
-	* @author 吴有根
+	* @author Eg
 	 */
 	<T> Future<T> submit(Runnable task,T result);
 	
@@ -102,7 +102,7 @@ public interface ExecutorService extends Executor{
 	* 该Future的get方法在成功时将返回null
 	* @param task
 	* @return
-	* @author 吴有根
+	* @author Eg
 	 */
 	Future<?> submit(Runnable task);
 	
@@ -112,7 +112,7 @@ public interface ExecutorService extends Executor{
 	* @param tasks
 	* @return
 	* @throws InterruptedException
-	* @author 吴有根
+	* @author Eg
 	 */
 	<T> List<Future<T>> invokeAll(Collection<? extends Callable<T>> tasks) throws InterruptedException;
 	
@@ -128,7 +128,7 @@ public interface ExecutorService extends Executor{
 	* @param unit
 	* @return
 	* @throws InterruptedException
-	* @author 吴有根
+	* @author Eg
 	 */
 	<T> List<Future<T>> invokeAll(Collection<? extends Callable<T>> tasks,
 			long timeout,TimeUnit unit) throws InterruptedException;
@@ -145,7 +145,7 @@ public interface ExecutorService extends Executor{
 	* @throws InterruptedException
 	* @throws ExecutionException
 	* @throws TimeoutException
-	* @author 吴有根
+	* @author Eg
 	 */
 	<T> TimeUnit invokeAny(Collection<? extends Callable<T>> tasks,
 			long timeout,TimeUnit unit) throws InterruptedException,ExecutionException,TimeoutException;

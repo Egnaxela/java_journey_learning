@@ -3,7 +3,7 @@
  * @Description: 
  * Company       rongji
  * @version      1.0
- * @author:      吴有根  
+ * @author:      Eg  
  * @version:     1.0
  * Createdate:   2017年6月8日 下午7:27:34  
  *  
@@ -15,14 +15,14 @@ package com.rongji.chapter6;
  * Description:   
  * Copyright:   Copyright (c)2017 
  * Company:     rongji  
- * @author:     吴有根  
+ * @author:     Eg  
  * @version:    1.0  
  * Create at:   2017年6月8日 下午7:27:34  
  *  
  * Modification History:  
  * Date         Author      Version     Description  
  * ------------------------------------------------------------------  
- * 2017年6月8日      吴有根                      1.0         1.0 Version  
+ * 2017年6月8日      Eg                      1.0         1.0 Version  
  */
 
 public enum Planet {

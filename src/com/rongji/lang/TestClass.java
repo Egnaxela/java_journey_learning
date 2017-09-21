@@ -3,7 +3,7 @@
  * @Description: 
  * Company       rongji
  * @version      1.0
- * @author:      吴有根  
+ * @author:      Eg  
  * @version:     1.0
  * Createdate:   2017年5月26日 下午4:57:21  
  *  
@@ -24,14 +24,14 @@ import org.junit.Test;
  * Description:   
  * Copyright:   Copyright (c)2017 
  * Company:     rongji  
- * @author:     吴有根  
+ * @author:     Eg  
  * @version:    1.0  
  * Create at:   2017年5月26日 下午4:57:21  
  *  
  * Modification History:  
  * Date         Author      Version     Description  
  * ------------------------------------------------------------------  
- * 2017年5月26日      吴有根                      1.0         1.0 Version  
+ * 2017年5月26日      Eg                      1.0         1.0 Version  
  */
 
 public class TestClass {
@@ -112,7 +112,7 @@ public class TestClass {
 	* @param a
 	* @param b
 	* @return
-	* @author 吴有根
+	* @author Eg
 	 */
 	public int compare(Integer a,Integer b){
 		return a<b?-1:(a==b?0:1);

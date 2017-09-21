@@ -3,7 +3,7 @@
  * @Description: 
  * Company       rongji
  * @version      1.0
- * @author:      吴有根  
+ * @author:      Eg  
  * @version:     1.0
  * Createdate:   2017年8月8日 下午5:24:14  
  *  
@@ -17,14 +17,14 @@ import org.junit.Test;
  * Description:   
  * Copyright:   Copyright (c)2017 
  * Company:     rongji  
- * @author:     吴有根  
+ * @author:     Eg  
  * @version:    1.0  
  * Create at:   2017年8月8日 下午5:24:14  
  *  
  * Modification History:  
  * Date         Author      Version     Description  
  * ------------------------------------------------------------------  
- * 2017年8月8日      吴有根                      1.0         1.0 Version  
+ * 2017年8月8日      Eg                      1.0         1.0 Version  
  */
 
 public class VirtualMethodsTest extends Base{
@@ -78,7 +78,7 @@ public class VirtualMethodsTest extends Base{
 	 * ExtClassLoader的父类加载器是BootStrap ClassLoader,
 	 * 由于BootStrap ClassLoader不是一个
 	* <p>描述:</p>
-	* @author 吴有根
+	* @author Eg
 	 */
 	@Test
 	public void test4() {

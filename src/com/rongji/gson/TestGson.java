@@ -29,14 +29,14 @@ import com.rongji.entity.UserInfo;
  * Description:   
  * Copyright:   Copyright (c)2017 
  * Company:     rongji  
- * @author:     吴有根  
+ * @author:     Eg  
  * @version:    1.0  
  * Create at:   2017年5月26日 上午10:09:18  
  *  
  * Modification History:  
  * Date         Author      Version     Description  
  * ------------------------------------------------------------------  
- * 2017年5月26日      吴有根                      1.0         1.0 Version
+ * 2017年5月26日      Eg                      1.0         1.0 Version
  */
 public class TestGson {
 
@@ -58,7 +58,7 @@ public class TestGson {
 	/**
 	 * 
 	* <p>描述:Pojo生成Json</p>
-	* @author 吴有根
+	* @author Eg
 	 */
 	@Test
 	public void test1(){
@@ -73,7 +73,7 @@ public class TestGson {
 	/**
 	 * 
 	* <p>描述:解析json</p>
-	* @author 吴有根
+	* @author Eg
 	 */
 	@Test
 	public void test2(){
@@ -93,7 +93,7 @@ public class TestGson {
 	/**
 	 * 
 	* <p>描述:基本数据类型的生成</p>
-	* @author 吴有根
+	* @author Eg
 	 */
 	@Test
 	public void test0(){

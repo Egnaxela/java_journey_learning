@@ -3,7 +3,7 @@
  * @Description: 
  * Company       rongji
  * @version      1.0
- * @author:      吴有根  
+ * @author:      Eg  
  * @version:     1.0
  * Createdate:   2017年7月25日 上午9:22:29  
  *  
@@ -19,14 +19,14 @@ import org.junit.Test;
  * Description:   
  * Copyright:   Copyright (c)2017 
  * Company:     rongji  
- * @author:     吴有根  
+ * @author:     Eg  
  * @version:    1.0  
  * Create at:   2017年7月25日 上午9:22:29  
  *  
  * Modification History:  
  * Date         Author      Version     Description  
  * ------------------------------------------------------------------  
- * 2017年7月25日      吴有根                      1.0         1.0 Version  
+ * 2017年7月25日      Eg                      1.0         1.0 Version  
  */
 
 public class Test0 {

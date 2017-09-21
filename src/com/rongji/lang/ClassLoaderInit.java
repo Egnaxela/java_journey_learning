@@ -3,7 +3,7 @@
  * @Description: 
  * Company       rongji
  * @version      1.0
- * @author:      吴有根  
+ * @author:      Eg  
  * @version:     1.0
  * Createdate:   2017年8月11日 下午2:12:25  
  *  
@@ -14,14 +14,14 @@ package com.rongji.lang;
  * Description:   
  * Copyright:   Copyright (c)2017 
  * Company:     rongji  
- * @author:     吴有根  
+ * @author:     Eg  
  * @version:    1.0  
  * Create at:   2017年8月11日 下午2:12:25  
  *  
  * Modification History:  
  * Date         Author      Version     Description  
  * ------------------------------------------------------------------  
- * 2017年8月11日      吴有根                      1.0         1.0 Version  
+ * 2017年8月11日      Eg                      1.0         1.0 Version  
  */
 
 /**
@@ -46,7 +46,7 @@ public abstract class ClassLoaderInit {
 	* @param name
 	* @return
 	* @throws ClassNotFoundException
-	* @author 吴有根
+	* @author Eg
 	 */
 	protected Class<?> findClass(String name) throws ClassNotFoundException{
 		throw new ClassNotFoundException(name);
@@ -63,7 +63,7 @@ public abstract class ClassLoaderInit {
 	* @param resolve
 	* @return
 	* @throws ClassNotFoundException
-	* @author 吴有根
+	* @author Eg
 	 */
 	protected synchronized Class<?> loadClass(String name,boolean resolve) throws ClassNotFoundException{
 		Class c=findLoadedClass(name);

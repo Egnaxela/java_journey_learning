@@ -3,7 +3,7 @@
  * @Description: 
  * Company       rongji
  * @version      1.0
- * @author:      吴有根  
+ * @author:      Eg  
  * @version:     1.0
  * Createdate:   2017年7月4日 下午6:16:48  
  *  
@@ -17,14 +17,14 @@ import com.rongji.util.concurrent.TimeUnit;
  * Description:   
  * Copyright:   Copyright (c)2017 
  * Company:     rongji  
- * @author:     吴有根  
+ * @author:     Eg  
  * @version:    1.0  
  * Create at:   2017年7月4日 下午6:16:48  
  *  
  * Modification History:  
  * Date         Author      Version     Description  
  * ------------------------------------------------------------------  
- * 2017年7月4日      吴有根                      1.0         1.0 Version  
+ * 2017年7月4日      Eg                      1.0         1.0 Version  
  */
 
 public interface Lock {

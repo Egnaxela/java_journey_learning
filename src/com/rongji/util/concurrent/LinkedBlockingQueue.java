@@ -3,7 +3,7 @@
  * @Description: 
  * Company       rongji
  * @version      1.0
- * @author:      吴有根  
+ * @author:      Eg  
  * @version:     1.0
  * Createdate:   2017年7月4日 下午6:01:22  
  *  
@@ -26,14 +26,14 @@ import java.util.concurrent.locks.ReentrantLock;
  * Description:   
  * Copyright:   Copyright (c)2017 
  * Company:     rongji  
- * @author:     吴有根  
+ * @author:     Eg  
  * @version:    1.0  
  * Create at:   2017年7月4日 下午6:01:22  
  *  
  * Modification History:  
  * Date         Author      Version     Description  
  * ------------------------------------------------------------------  
- * 2017年7月4日      吴有根                      1.0         1.0 Version  
+ * 2017年7月4日      Eg                      1.0         1.0 Version  
  */
 
 public class LinkedBlockingQueue<E> extends AbstractQueue<E> implements BlockingQueue<E>, java.io.Serializable{

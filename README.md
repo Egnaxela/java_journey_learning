@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 <p>
-����Ҷ�任�븵��Ҷ����
+傅里叶变换与傅里叶分析
 </p>
 
 [zhihu](https://zhuanlan.zhihu.com/p/27015174)
@@ -160,4 +159,3 @@ QQ Group: 373225642
 
 =======
 # java_test
->>>>>>> 3edcc32f50021569759f8b394848860726a0b14a

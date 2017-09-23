@@ -1,0 +1,4 @@
+
+clone:
+	git clone https://github.com/Egnaxela/java_resource.git
+

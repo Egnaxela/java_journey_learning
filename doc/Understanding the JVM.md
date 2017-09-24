@@ -1,25 +1,26 @@
 10000
 
-============================<br/>
-2017-09-24
-#####[高级虚拟机圈子](http://hllvm.group.iteye.com/)
-#####[HotSpot Group](http://openjdk.java.net/groups/hotspot/)
-#####[勘误](http://icyfenix.iteye.com/)
+============================
 
-######Java优点：
+2017-09-24
+##### [高级虚拟机圈子](http://hllvm.group.iteye.com/)
+##### [HotSpot Group](http://openjdk.java.net/groups/hotspot/)
+##### [勘误](http://icyfenix.iteye.com/)
+
+###### Java优点：
 * 摆脱了平台的束缚，通过运行于各个平台之上的虚拟机来实习
 * 提供了一个相对安全的内存管理和访问机制，避免了绝大部分的内存泄漏和指针越界
 * 实现了热点代码检测和运行时编译优化，使得Java应用可以随着运行时间的提高获得更高的性能
 * 无数来自第三方的类库
 
-######Java技术体系：
+###### Java技术体系：
 * Java程序设计语言
 * 各种硬件平台上的Java虚拟机
 * Class文件格式
 * Java API类库
 * 第三方类库
 
-######Java发展史
+###### Java发展史
 * 1996 JDK1.0 代表技术：Java虚拟机、Applet、AWT
 * 1997 JDK1.1 代表技术：JAR文件格式、JDBC、JavaBeans、RMI (语法方面：内部类Inner Class、反射Reflection)
 * 1998 JDK1.2 里程碑式 拆分Java技术体系为三个方向

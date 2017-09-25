@@ -11,6 +11,9 @@
 
 package com.rongji.lang;
 
+import java.io.ObjectStreamField;
+import java.util.Arrays;
+
 /**  
  * Description:   
  * Copyright:   Copyright (c)2017 
@@ -51,8 +54,30 @@ public final class StringTest
 	
 	private static final long serialVersionUID = 1L;
 
+	private static final ObjectStreamField[] serialPersistentFields=
+			new ObjectStreamField[0];
 	
+
+	public StringTest() {
+		this.offset=0;
+		this.count=0;
+		this.value=new char[0];
+	}
 	
+	public StringTest(StringTest original) {
+		int size=original.count;
+		char[] originalValue=original.value;
+		char[] v;
+		if(originalValue.length>size) {
+			int off=original.offset;
+			v=Arrays.copyOfRange(originalValue, off, off+size);
+		}else {
+			v=originalValue;
+		}
+		this.offset=0;
+		this.count=size;
+		this.value=v;
+	}
 	
 	@Override
 	public int length() {

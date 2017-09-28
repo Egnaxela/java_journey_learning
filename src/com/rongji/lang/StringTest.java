@@ -79,6 +79,10 @@ public final class StringTest
 		this.value=v;
 	}
 	
+	
+	
+	
+	
 	@Override
 	public int length() {
 		// TODO Auto-generated method stub

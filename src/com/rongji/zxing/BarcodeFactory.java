@@ -281,6 +281,6 @@ public class BarcodeFactory {
         /**
          * 测试方法入口
          */
-        BarcodeFactory.encode("https://www.pgyer.com/ECIQ_APP_Android",150, 150, codeIconPath, codePath,false);
+        BarcodeFactory.encode("https://www.pgyer.com/ECIQ_APP_ENTERPRISE_MOBILE_ADR",150, 150, codeIconPath, codePath,false);
     }
 }

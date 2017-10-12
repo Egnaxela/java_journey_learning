@@ -39,4 +39,11 @@ Javascript高级程序设计
     var result=addTen(count);
     alert(count);//20
     alert(result);//30                            
-   
+ 
+ 六、面向对象程序设计
+         创建自定义的对象：
+     1、创建一个object实例
+		var person=new Object();
+		person.name="Michael";
+		person.age=20;
+		           

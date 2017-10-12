@@ -42,7 +42,16 @@ public class LengthOfLongestSubstring3 {
 		
 	}
 	
-	public static String length
+	public static String lengthofSubString(String s) {
+		
+		int count=0,max=0;
+		int length=s.length();
+		for(int i=0;i<s.length();i++) {
+			
+		}
+		
+		return null;
+	}
 	
 	
 }

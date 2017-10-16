@@ -19,6 +19,7 @@ import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
 
+
 /**  
  * Description:   
  * Copyright:   Copyright (c)2017 
@@ -44,7 +45,7 @@ import org.springframework.data.redis.core.RedisTemplate;
  * 
  * 
  */
-public class RedisUtil {
+public class RedisUtils {
 	
 	/**
 	 * 
@@ -77,5 +78,8 @@ public class RedisUtil {
 		}
 		
 		return "PONG".equals(result)?true:false;
+	}
+	
+	public static void main(String[] args) {
 	}
 }

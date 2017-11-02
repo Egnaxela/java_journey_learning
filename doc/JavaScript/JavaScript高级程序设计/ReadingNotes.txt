@@ -1,0 +1,49 @@
+Javascript高级程序设计
+一、chapter 1
+   JavaScript作为一种与网页交互的脚本语言，由以下三部分组成
+   1、ECMAScript，由ECMA-262定义，提供核心语言功能
+   2、DOM(文档对象模型)，提供访问和操作网页内容的方法和接口
+   3、BOM(浏览器对象模型)，提供与浏览器交互的方法和接口
+三、chapter 3
+   ECMA-262描述的关键字：
+     break do instanceof  typeof case else new var catch finally return void
+     continue for switch while debugger function this with default if throw this with 
+     default if throw delete in try 
+     
+             保留字：
+     abstract enum int short boolean export interface static byte extends long super
+     char final native synchronized class float package throws const goto private
+     transient debugger implements protected volatile double import public 
+     
+             变量:ECMAScript中变量是松散的，可以用来保存任何类型的数据，变量只是用于保存值的占位符而已，
+                       没有被初始化的变量会保存一个特殊值--undefined
+                       
+            数据类型：  5种简单数据类型 :Undefined、Null、Boolean、Number、String;
+            1种复杂数据类型:Object(Object本质上是一组无序的名值对组成的)
+        typeof操作符返回值："undefined"--值未定义
+			        	"boolean"--值为布尔值
+			        	"string"--值为字符串
+			        	"number"--值为数值
+			        	"object"--值为对象或null
+			        	"function"--值为函数
+	实际上，任何未指定返回值的函数返回的是一个特殊的undefined的值
+	ECMAScript中没有函数签名的概念，其函数参数是一个包含0个或多个值的数组的形式的传递的，可以通过arguments对象来访问这些参数
+	由于不存在函数签名的特性，所以函数不能重载。		
+	ECMAScript中所有函数的参数都是按值传递的
+	function addTen(num){
+		num+=10;
+		return num;
+	}       
+	 	
+    var count=20;
+    var result=addTen(count);
+    alert(count);//20
+    alert(result);//30                            
+ 
+ 六、面向对象程序设计
+         创建自定义的对象：
+     1、创建一个object实例
+		var person=new Object();
+		person.name="Michael";
+		person.age=20;
+		           

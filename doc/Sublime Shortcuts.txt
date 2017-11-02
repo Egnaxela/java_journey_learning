@@ -1,0 +1,93 @@
+文件 File
+新建文件 	Ctrl + N 	打开文件 	Ctrl + O 	打开最近关闭的文件 	Ctrl + Shift + T
+保存 	Ctrl + S 	另存为… 	Ctrl + Shift + S 	关闭文件 	Ctrl + W
+新建窗口 	Ctrl + Shift + N 	关闭窗口 	Ctrl + Shift + W
+ 
+编辑 Edit
+撤销 	Ctrl + Z 	重做 	Ctrl + Y 	复制 	Ctrl + C
+剪切 	Ctrl + X 	粘贴 	Ctrl + V 	粘贴并缩进 	Ctrl + Shift + V
+显示提示 	Ctrl + Space 	按行排序 	F9 	按行排序(区分大小写) 	Ctrl + F9
+
+— undo selection —
+智能撤销 	Ctrl + U 	智能重做 	Ctrl + Shift + U
+
+— line —
+缩进 	Ctrl + ] 	反缩进 	Ctrl + [ 	上移一行 	Ctrl + Shift + Up
+下移一行 	Ctrl + Shift + Down 	复制行(加倍) 	Ctrl + Shift + D 	删除行 	Ctrl + Shift + K
+连接行 	Ctrl + J
+
+-- Comment --
+注释开关 	Ctrl + / 	块注释开关 	Ctrl + Shift + /
+
+-- Text --
+段前插入 	Ctrl + Shift + Enter 	段后插入 	Ctrl + Enter 	删除单词前部 	Ctrl + Delete
+删除单词后部 	Ctrl + Backspace 	删除到行尾 	Ctrl + K, K 	删除到行头 	Ctrl + K, Backspace
+前后调转 	Ctrl + T
+
+-- Tag --
+闭合标签 	Alt + . 	选择标签(可重复) 	Ctrl + Shift + A 	选择区域被标签包含 	Alt + Shift + W
+
+-- Mark --
+设置记号 	Ctrl + K, Space 	选择到记号 	Ctrl + K, A 	删除到记号 	Ctrl + K, W
+交换(移动)记号 	Ctrl + K, X 	移除记号 	Ctrl + K, G 	Yank 	Ctrl + K, Y
+取消所有折叠 	Ctrl + K, J
+
+-- Code Folding --
+折叠 	Ctrl + Shift + [ 	取消折叠 	Ctrl + Shift + ]
+折叠所有 	Ctrl + K, 1 	折叠层级2{2-9} 	Ctrl + K, 2 	折叠标签属性 	Ctrl + K, T
+
+— Convert Case —
+大写 	Ctrl + K, U 	小写 	Ctrl + K, L
+ 
+选择 Selection
+分割为多光标(选择多行时) 	Ctrl + Shift + L 	向上一行添加光标 	Ctrl + Alt + Up 	向下一行添加光标 	Ctrl + Alt + Down
+单光标 	Escape 	全选 	Ctrl + A 	选择一行(多次) 	Ctrl + L
+选择词语 	Ctrl + D 	选择范围 	Ctrl + Shift + Space 	选择支架 	Ctrl + Shift + M
+选择同缩进 	Ctrl + Shift + J 	选择标签内部 	Ctrl + Shift + A
+ 
+查询 Find
+查找 	Ctrl + F 	查找下一个 	F3 	查找上一个 	Shift + F3
+Incremental Find 	Ctrl + I 	替换 	Ctrl + H 	替换下一个 	Ctrl + Shift + H
+快速查询 	Ctrl + F3 	快速查询全部(多光标) 	Alt + F3 	快速查询下一个(多光标) 	Ctrl + D
+快速查询跳过下一个(多光标) 	Ctrl + K, D 	Use Selection For Find 	Ctrl + E 	Use Selection For Replace 	Ctrl + Shift + E
+查询文件 	Ctrl + Shift + F
+— find results —
+下一个 	F4 	上一个 	Shift + F4
+ 
+视图 View
+显示控制 	Ctrl + ` 	全屏模式 	F11 	无干扰模式 	Alt + F11
+拼写检查 	F6
+
+— side bar —
+侧边栏开关 	Ctrl + K, B
+
+— layout —
+单视图 	Alt + Shift + 1 	双列视图 	Alt + Shift + 2 	三列视图 	Alt + Shift + 3
+四列视图 	Alt + Shift + 4 	四宫格视图 	Alt + Shift + 5 	双行视图 	Alt + Shift + 8
+三行视图 	Alt + Shift + 9
+
+— focus group —
+组间切换焦点 	Ctrl + 1, [2,3...]
+— move file to group —
+移动文件到组 	Ctrl + Shift + 1, [2,3...]
+ 
+到达 Goto
+到达任意 	Ctrl + P 	到达函数 	Ctrl + R 	到达行 	Ctrl + G
+Jump To Matching Bracket 	Ctrl + M
+
+— switch file —
+下一个文件 	Ctrl + PgDown 	上一个文件 	Ctrl + PgUp 	下一个文件(stack) 	Ctrl + Tab
+上一个文件(stack) 	Ctrl + Shift + Tab
+
+— scroll —
+滚动到光标处 	Ctrl + K, C 	向上滚动一行(定光标) 	Ctrl + Up 	向下滚动一行(定光标) 	Ctrl + Down
+
+— bookmarks —
+书签开关 	Ctrl + F2 	下一个书签 	F2 	上一个书签 	Shift + F2
+清除所有书签 	Ctrl + Shift + F2 	选择所有书签 	Alt + F2
+ 
+工具 Tools
+命令面板 	Ctrl + Shift + P
+ 
+项目 Project
+切换项目 	Ctrl + Alt + P

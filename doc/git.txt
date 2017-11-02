@@ -1,0 +1,35 @@
+一、git-ssh配置
+  1、设置Git的user name和email(第一次)
+     git config --global user.name "Egnaxela"
+     git config --global user.email "yougensai@gmail.com"
+  2、生成密钥
+     ssh-keygen -t rsa -C "yougensai@gmail.com"
+              连续3个回车
+              会生成两个文件:id_rsa和id_rsa.pub
+  3、登录github,添加ssh
+            复制id_rsa.pub文件的内容到key
+            
+二、存储git用户名和密码
+   1、编辑文件
+   		touch .git-credentials
+  		vim .git-credentials
+   		https://{username}:{password}@github.com
+   2、添加Git config内容
+      	git config --global credential.helper store
+   3、查看
+     	查看%HOME%目录下的.gitconfig文件
+     	会多了一行：[credential]  helper=store
+     	然后重启bash   
+               
+
+=================================================================                                   
+clone:
+	git clone https://github.com/Egnaxela/java_resource.git
+
+git add .
+git commit -m ""
+git push
+git pull	
+
+git stash
+

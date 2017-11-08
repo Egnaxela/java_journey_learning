@@ -47,6 +47,8 @@ public class BasicGrammar {
 	/*
 	 * 修改变量、方法
 	 * 静态块、静态内部类、静态导包
+	 * 
+	 * static 修饰一个Map
 	 */
 	RedisTemplate<Serializable,Object> redisTemplate;
 	

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<script>
+		//作用域提升
+		var a=22;
+		foo();
+		function foo(){
+			b=23;
+			console.log(b);
+			//var a;
+		};
+		console.log(a);
+		
+	</script>
+</body>
+</html>

@@ -12,14 +12,8 @@
 package com.interview;
 
 import java.io.Serializable;
-import java.util.Vector;
-
-import org.junit.Test;
 import org.springframework.data.redis.core.RedisTemplate;
-
 import com.google.GuavaTester;
-import com.rongji.dfish.base.crypt.Base32;
-
 import static java.lang.System.out;
 import static java.lang.Math.PI;
 

@@ -50,5 +50,35 @@ public class CollectionsFrameWork {
 		System.out.println(map.get(null));
 	//	System.out.println(table.get(null));
 		
+		System.out.println("**********");
+		Integer i01=59;
+		int i02=59;
+		Integer i03=Integer.valueOf(59);
+		Integer i04=new Integer(59);
+		System.out.println(i01==i02);
+		System.out.println(i01==i03);
+		System.out.println(i03==i04);
+		System.out.println(i02==i04);
+		System.out.println("**********");
+		Integer i011=159;
+		int i021=159;
+		Integer i031=Integer.valueOf(159);
+		Integer i041=new Integer(159);
+		System.out.println(i011==i021);
+		System.out.println(i011==i031);
+		System.out.println(i031==i041);
+		System.out.println(i021==i041);
+		System.out.println("************");
+		System.out.println(sun.misc.VM.getSavedProperty("java.runtime.name"));
+		System.out.println(System.getProperties());
+		System.out.println("************");
+		String a="1234";
+        String b="1234";
+        String c = new String("1234");
+        System.out.println(a==b);
+        System.out.println(a==c);
+        System.out.println(a.equals(c));
+        System.out.println("--"+CollectionsFrameWork.class.getClassLoader());
+        
 	}
 }

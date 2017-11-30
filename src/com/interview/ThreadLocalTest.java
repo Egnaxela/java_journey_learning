@@ -52,7 +52,7 @@ public class ThreadLocalTest {
 		public MyThread(int index) {
 			this.index = index;
 		}
-
+		
 		@Override
 		public void run() {
 			System.out.println("线程" + index + "的初始值" + value.get());

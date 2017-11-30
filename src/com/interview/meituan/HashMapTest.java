@@ -9,7 +9,7 @@
  *  
  */  
 
-package com.interview;
+package com.interview.meituan;
 
 import java.io.Serializable;
 import java.util.AbstractMap;
@@ -26,11 +26,15 @@ import java.util.Set;
  * Create at:   2017年11月15日 下午6:59:35  
  *  
  * Modification History:  
- * Date         Author      Version     Description  
+ * Date            Author      Version     Description  
  * ------------------------------------------------------------------  
- * 2017年11月15日      Eg                      1.0         1.0 Version  
+ * 2017-11-15      Eg          1.0         1.0 Version  
+ * 
  */
 
+/**
+ * Question:HashMap的实现原理?是不是线程安全?如何是其线程安全?
+ */
 public class HashMapTest<K,V> extends AbstractMap<K, V> implements Map<K, V>,Cloneable,Serializable{
 
 	private static final long serialVersionUID = -6399210646915638640L;

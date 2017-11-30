@@ -28,7 +28,7 @@ package com.interview;
 public class StringTest {
 	private final char value[]=null;
 	private int hash;
-
+	
 	public static void main(String[] args) {
 		/*
 		 * stack 栈 (VM stack 虚拟机栈; Native method stack 本地方法栈)

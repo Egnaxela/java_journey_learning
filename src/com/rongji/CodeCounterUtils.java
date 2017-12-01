@@ -41,7 +41,7 @@ public class CodeCounterUtils {
 	private static ArrayList<File> filesArray=new ArrayList<File>();
 	public static void main(String[] args) {
 		//Map<String,List<Integer>> map=parsePath("D://1-NetbeansWork//eciq_apps//src","D://1-NetbeansWork//eciq_commons//src");
-		Map<String,List<Integer>> map=parsePath("D://1-NetbeansWork//eciq_apps//src//com","D://1-NetbeansWork//eciq_common//src//com");
+		Map<String,List<Integer>> map=parsePath("D://1-NetbeansWork//eciq_apps//src//com","D://1-NetbeansWork//eciq_common//src");
 		for(Map.Entry<String, List<Integer>> entry:map.entrySet()) {
 			System.out.println(entry.getKey());
 			System.out.println("总文件个数: " + entry.getValue().get(0)); 
@@ -66,13 +66,21 @@ public class CodeCounterUtils {
 		Map<String,List<Integer>> map=new HashMap<String,List<Integer>>();
 		if(paths!=null&&paths.length>=1) {
 			for(int i=0;i<paths.length;i++) {
-				ArrayList<File> fArrayList=getFiles(new File(paths[i]));
+				ArrayList<File> fArrayList=getFiles(new File(paths[i]));//7433
 				if(!CollectionUtils.isEmpty(fArrayList)) {
 					List<Integer> numberList=new ArrayList<Integer>();
+					numberList.add(0);numberList.add(0);numberList.add(0);numberList.add(0);
 					for(File f:fArrayList) {
-						if(f.getName().matches(".*\\.java$"));//匹配.java格式的文件
-						numberList=count(f);
-						System.out.println(f);//打印文件路径
+						if(f.getName().matches(".*\\.java$")) {//匹配.java格式的文件
+							List<Integer> subList=count(f);
+							numberList.set(0, subList.get(0)+numberList.get(0));
+							numberList.set(1, subList.get(1)+numberList.get(1));
+							numberList.set(2, subList.get(2)+numberList.get(2));
+							numberList.set(3, subList.get(3)+numberList.get(3));
+							System.out.println(f);//打印文件路径
+						}
+						
+						
 					}
 					map.put(paths[i], numberList);
 				}
@@ -136,10 +144,8 @@ public class CodeCounterUtils {
 				}else {
 					codeLines++;
 				}
-				
-				files++;
 			}
-			
+			files++;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}finally {

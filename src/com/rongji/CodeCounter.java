@@ -19,7 +19,16 @@ public class CodeCounter {
     public static void main(String[] args) {  
 //        String file = CodeCounter.class.getResource("/").getFile();  
 //        String path = file.replace("target/test-classes", "src");  
-    	String  path="D://1-NetbeansWork//eciq_common//src";
+    	
+    	/**
+    	 * 总统计文件: 5775
+    	 * 总空白行数: 197455
+    	 * 总注释行数: 481607
+    	 * 总有效代码行数: 1545495
+    	 * 总行数: 2224557
+    	 * 统计时间: 2017-12-01 10:03:59
+    	 */
+    	String  path="D://1-NetbeansWork//eciq_apps//src//com";
     	/**
     	 * 统计文件：5775
     	 * 代码行数：1545495
@@ -32,7 +41,7 @@ public class CodeCounter {
         for (File f : al) {  
             if (f.getName().matches(".*\\.java$")){ // 匹配java格式的文件  
                 count(f);  
-                System.out.println(f);  
+               // System.out.println(f);  
             }  
         }  
         System.out.println("总统计文件: " + files);

@@ -1,0 +1,85 @@
+jdk
+/etc/profile
+export JAVA_HOME=/usr/local/jdk7
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+
+数据库字符集
+oracle/.profile
+export NLS_LANG=AMERICAN_AMERICA.ZHS16GBK
+
+
+10.43.0.162
+10.43.0.163
+
+
+lsnrctl status;
+
+lsnrctl stop;
+
+sqlplus / as sysdba;
+shutdown immediate;
+startup;
+
+exit;
+lsnrctl start;
+
+查看监听状态
+lsnrctl status
+如果有 supports no services 
+
+执行
+sqlplus / as sysdba
+显示服务名
+show parameter service_names;
+强制注册服务
+alter system register;
+查看状态
+lsnrctl status;
+1、
+select * from v$datafile;--表空间地址
+
+/data/oral
+2、创建表空间
+CREATE TABLESPACE TS_TAB_APP DATAFILE '/data/oral/TS_TAB_APP.dbf' size 200M autoextend on extent management local segment space management auto;
+3、创建用户
+create user ECIQ_APP IDENTIFIED BY ECIQ_APP DEFAULT TABLESPACE TS_TAB_APP;
+4、授权限
+GRANT CONNECT,RESOURCE,dba TO ECIQ_APP;
+5、导入
+imp ECIQ_APP/ECIQ_APP file=/opt/oracle/eciq_app.dmp full=y;
+6、收回权限
+sqlplus / as sysdba
+revoke dba from ECIQ_APP;
+
+
+--SHUTDOWN IMMEDIATE
+--STARTUP RESTRICT
+--ALTER DATABASE CHARACTER SET INTERNAL_USE ZHS16GBK;
+--SHUTDOWN IMMEDIATE
+--startup
+
+
+--drop tablespace TS_TAB_APP including contents and datafiles cascade  constraints;
+--drop user ECIQ_APP cascade;
+
+--alter database character set internal_use ZHS16GBK
+--alter database character set ZHS16GBK
+--NLS_LANG="ZHS16GBK"
+--LANG=zh
+--export LANG NLS_LANG
+
+
+--SELECT USER_NAME FROM SYS_USER_A WHERE USER_CODE = '1100000036';
+--http://10.43.0.162:8099/group1/M00/00/00/CisAolmN16iAdXOOAAAavfRmE5U323.png
+
+
+1、培训环境
+下发库地址
+电子业务平台地址参数
+2、app统一由总部部署，用户扫描二维码
+
+3、需开放端口
+80
+8099
+

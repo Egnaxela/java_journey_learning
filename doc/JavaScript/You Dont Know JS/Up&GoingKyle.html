@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>${title}</title>
+</head>
+<body>
+
+	<script>
+	document.title="Up&Going";
+		//作用域提升
+		var a=22;
+		fun();
+		function fun(){
+			b=23;
+			console.log(b);
+			//var a;
+		};
+		console.log(a);
+		
+		//闭包
+		console.log("<><><>>闭包<><><><>>")
+		function makeadd(x){
+			function add(y){
+				return y+x;
+			}
+			return add;
+		};
+		var plusone=makeadd(1);
+		var plusten=makeadd(10);
+		console.log(plusone(3));//3+1=4
+		console.log(plusone(41));//41+1=41
+		console.log(plusten(13));//13+10=23
+		
+		
+		//this
+		console.log("<><><>this<><><><>");
+		function foo(){
+			console.log(this.bar);
+		}
+		var bar="global";
+		
+		var obj1={
+			bar:"obj1",
+			f:foo
+		};
+		
+		var obj2={
+			bar:"obj2"	
+		};
+		foo();
+		obj1['f']();
+		foo.call(obj2);//call方法可以将函数的上下文变为调用的thisObject
+		foo.call();//call如果没有指定对象，Global则会被当做thisObject
+		new foo();//new foo()会将this设置为空？
+		
+		//非JavaScript 
+		//1、DOM API  如：alert  document  
+		alert(document);
+		
+	</script>
+</body>
+</html>

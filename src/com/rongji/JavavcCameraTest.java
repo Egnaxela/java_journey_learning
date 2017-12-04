@@ -35,7 +35,7 @@ import org.bytedeco.javacv.CanvasFrame;
 import org.bytedeco.javacv.OpenCVFrameConverter;  
 import org.bytedeco.javacv.FrameGrabber.Exception;
 import org.bytedeco.javacv.OpenCVFrameGrabber;  
-import com.itown.rcp.client.MessageBox;
+
   
 /** 
  * 调用本地摄像头窗口视频 

@@ -1,11 +1,12 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=82a6222633ee68e7c41432a21889276ebc8a9bd5
 eclipse.preferences.version=1
 encoding//src/com/google=GBK
-<<<<<<< HEAD
 encoding//src/com/rongji/algorithm/DeepLearning.java=GBK
 encoding//src/com/rongji/algorithm/Sort.java=GBK
-=======
->>>>>>> 82a6222633ee68e7c41432a21889276ebc8a9bd5
 encoding//src/com/rongji/entity=UTF-8
+encoding//src/com/rongji/io/Encode.java=UTF-8
 encoding/<project>=UTF-8
 encoding/README.md=GBK
 encoding/src=UTF-8

@@ -21,6 +21,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.springframework.aop.ThrowsAdvice;
 import org.springframework.util.CollectionUtils;
 
 /**  
@@ -41,7 +42,7 @@ public class CodeCounterUtils {
 	private static ArrayList<File> filesArray=new ArrayList<File>();
 	public static void main(String[] args) {
 		//Map<String,List<Integer>> map=parsePath("D://1-NetbeansWork//eciq_apps//src","D://1-NetbeansWork//eciq_commons//src");
-		Map<String,List<Integer>> map=parsePath("D://1-NetbeansWork//eciq_apps//src//com","D://1-NetbeansWork//eciq_common//src");
+		Map<String,List<Integer>> map=parsePath("E:\\eclipse-workspace\\java_resource");
 		for(Map.Entry<String, List<Integer>> entry:map.entrySet()) {
 			System.out.println(entry.getKey());
 			System.out.println("总文件个数: " + entry.getValue().get(0)); 
@@ -99,6 +100,9 @@ public class CodeCounterUtils {
 	 */
 	public static ArrayList<File> getFiles(File file ){//D:\1-NetbeansWork\eciq_apps\src\com
 		File[] files=file.listFiles();//获取路径的文件
+		if(files==null) {
+			throw new IllegalArgumentException(file.getPath()+" 路径文件不存在");
+		}
 		for(File child: files) {
 			if(child.isDirectory()) {
 				getFiles(child);

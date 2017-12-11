@@ -14,19 +14,9 @@
 	<classpathentry kind="lib" path="lib/jedis-2.1.0.jar"/>
 	<classpathentry kind="lib" path="lib/gson-2.8.0.jar" sourcepath="lib/gson-2.8.0-sources.jar"/>
 	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="lib/spring-aop-3.2.13.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-beans-3.2.13.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-core-3.2.13.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-data-commons-1.9.1.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-data-jpa-1.7.1.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-data-redis-1.8.3.RELEASE.jar" sourcepath="E:/Apache Commons/spring-data-redis-1.8.3.RELEASE.zip"/>
-	<classpathentry kind="lib" path="lib/spring-expression-3.2.13.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-jdbc-3.2.13.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-orm-3.2.13.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-tx-3.2.13.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-web-3.2.13.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-webmvc-3.2.13.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring.jar"/>
 	<classpathentry kind="lib" path="lib/spring-context-4.3.8.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/guava-22.0.jar" sourcepath="E:/Apache Commons/guava-22.0.zip"/>
 	<classpathentry kind="lib" path="lib/core-2.2.jar"/>
@@ -40,5 +30,27 @@
 	<classpathentry kind="lib" path="lib/javacv-1.2.jar"/>
 	<classpathentry kind="lib" path="lib/opencv-3.1.0-1.2-windows-x86_64.jar"/>
 	<classpathentry kind="lib" path="lib/opencv-3.1.0-1.2.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-aop"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-aspects"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-beans"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-context"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-context-support"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-expression"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-instrument"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-instrument-tomcat"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-jdbc"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-jms"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-orm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-orm-hibernate4"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-oxm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-struts"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-test"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-test-mvc"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-tx"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-web"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-webmvc"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-webmvc-portlet"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-webmvc-tiles3"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

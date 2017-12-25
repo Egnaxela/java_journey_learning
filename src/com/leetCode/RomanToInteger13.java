@@ -81,6 +81,8 @@ public class RomanToInteger13 {
 		map.put('C', 100);
 		map.put('D', 500);
 		map.put('M', 1000);
+		int result=0;
+		return result;
 	}
 
 }

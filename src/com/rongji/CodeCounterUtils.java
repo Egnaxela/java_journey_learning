@@ -41,8 +41,10 @@ import org.springframework.util.CollectionUtils;
 public class CodeCounterUtils {
 	private static ArrayList<File> filesArray=new ArrayList<File>();
 	public static void main(String[] args) {
-		//Map<String,List<Integer>> map=parsePath("D://1-NetbeansWork//eciq_apps//src","D://1-NetbeansWork//eciq_commons//src");
-		Map<String,List<Integer>> map=parsePath("E:\\eclipse-workspace\\java_resource");
+		//Map<String,List<Integer>> map=parsePath("D:\\eclipse\\workspace\\eciq_apps\\src","D:\\eclipse\\workspace\\eciq_common\\src");
+		Map<String,List<Integer>> map=parsePath("D:\\eclipse\\workspace\\netty");
+		long t1=System.currentTimeMillis();
+		int count=0;
 		for(Map.Entry<String, List<Integer>> entry:map.entrySet()) {
 			System.out.println(entry.getKey());
 			System.out.println("总文件个数: " + entry.getValue().get(0)); 
@@ -51,8 +53,10 @@ public class CodeCounterUtils {
 	        System.out.println("总有效代码行数: " + entry.getValue().get(3));  
 	        System.out.println("总行数:" + (entry.getValue().get(1) + entry.getValue().get(2) + entry.getValue().get(3)));  
 	        System.out.println("统计时间: "+new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
+	        count+=(entry.getValue().get(1) + entry.getValue().get(2) + entry.getValue().get(3));
 		}
-	
+		System.out.println("所有项目总计行数: "+count);
+		System.out.println("耗时: "+(System.currentTimeMillis()-t1)/1000.0+"s");
 	}
 	
 	
@@ -78,7 +82,7 @@ public class CodeCounterUtils {
 							numberList.set(1, subList.get(1)+numberList.get(1));
 							numberList.set(2, subList.get(2)+numberList.get(2));
 							numberList.set(3, subList.get(3)+numberList.get(3));
-							System.out.println(f);//打印文件路径
+						//	System.out.println(f);//打印文件路径
 						}
 						
 						

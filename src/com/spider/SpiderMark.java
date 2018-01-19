@@ -72,7 +72,7 @@ public class SpiderMark implements PageProcessor {
 	    public static void main(String[] args) {
 	        Spider.create(new SpiderMark())
 	        			.addUrl("https://github.com/code4craft")//从该地址开始抓取
-	        			.addPipeline(new JsonFilePipeline("D:\\eclipse\\workspace\\java_resource\\webmagicResult"))
+	        			.addPipeline(new JsonFilePipeline("D:\\eclipse\\workspace\\webmagicResult"))
 	        			.thread(5)  //开启5个线程抓取
 	        			.run(); //启动线程 
 	    }

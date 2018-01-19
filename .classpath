@@ -23,7 +23,7 @@
 	<classpathentry kind="lib" path="lib/dfish-base-3.0.1914-20170616.jar"/>
 	<classpathentry kind="lib" path="lib/dfish-framework-3.0.1964-20170623.jar"/>
 	<classpathentry kind="lib" path="lib/jodd-all-3.9.jar"/>
-	<classpathentry kind="lib" path="lib/netty-all-4.1.8.Final.jar"/>
+	<classpathentry kind="lib" path="lib/netty-all-4.1.8.Final.jar" sourcepath="/netty"/>
 	<classpathentry kind="lib" path="lib/ffmpeg-3.0.2-1.2-windows-x86_64.jar"/>
 	<classpathentry kind="lib" path="lib/ffmpeg-3.0.2-1.2.jar"/>
 	<classpathentry kind="lib" path="lib/javacpp-1.2.jar"/>
@@ -45,7 +45,7 @@
 	<classpathentry kind="lib" path="lib/jedis-2.9.0.jar"/>
 	<classpathentry kind="lib" path="lib/json-path-2.4.0.jar"/>
 	<classpathentry kind="lib" path="lib/json-smart-2.3.jar"/>
-	<classpathentry kind="lib" path="lib/jsoup-1.10.3.jar"/>
+	<classpathentry kind="lib" path="lib/jsoup-1.10.3.jar" sourcepath="opensource/lib/jsoup-jsoup-1.10.3.zip"/>
 	<classpathentry kind="lib" path="lib/junit-4.11.jar"/>
 	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-api-1.7.6.jar"/>
@@ -53,6 +53,7 @@
 	<classpathentry kind="lib" path="lib/webmagic-core-0.7.3.jar" sourcepath="opensource/webmagic-WebMagic-0.7.3.zip"/>
 	<classpathentry kind="lib" path="lib/webmagic-extension-0.7.3.jar"/>
 	<classpathentry kind="lib" path="lib/xsoup-0.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/jol-core-0.3.1.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/spring-aop"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/spring-aspects"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/spring-beans"/>

@@ -1,14 +1,5 @@
-<p>
-傅里叶变换与傅里叶分析
-</p>
 
-[zhihu](https://zhuanlan.zhihu.com/p/27015174)
-
-
-![logo](https://raw.github.com/code4craft/webmagic/master/assets/logo.jpg)
-
-[Readme in Chinese](https://github.com/code4craft/webmagic/tree/master/README-zh.md)
-
+[傅里叶变换与傅里叶分析](https://zhuanlan.zhihu.com/wille/19763358)
 
 [![Build Status](https://travis-ci.org/code4craft/webmagic.png?branch=master)](https://travis-ci.org/code4craft/webmagic)
 

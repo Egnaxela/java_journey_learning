@@ -39,6 +39,8 @@ import java.util.Arrays;
  * n is a positive integer, which is in the range of [1, 10000].
  * All the integers in the array will be in the range of [-10000, 10000].
  * 
+ * https://leetcode.com/submissions/detail/142403902/
+ * 
  */
 public class ArrayPartition561 {
 	
@@ -53,7 +55,6 @@ public class ArrayPartition561 {
 		for(int i=0;i<nums.length;i+=2) {
 			sum+=nums[i];
 		}
-		
 		return sum;
 	} 
 

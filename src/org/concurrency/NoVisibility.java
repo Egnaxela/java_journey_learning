@@ -40,8 +40,10 @@ public class NoVisibility {
 	}
 	
 	public static void main(String[] args) {
-		new ReadThread().start();
+		Thread t1=new ReadThread();
+		//t1.start();
 		number=42;
 		ready=true;
+		System.out.println(t1.getState());
 	}
 }

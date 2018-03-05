@@ -41,9 +41,9 @@ import org.springframework.util.CollectionUtils;
 public class CodeCounterUtils {
 	private static ArrayList<File> filesArray=new ArrayList<File>();
 	public static void main(String[] args) {
-		//Map<String,List<Integer>> map=parsePath("D:\\eclipse\\workspace\\eciq_apps\\src","D:\\eclipse\\workspace\\eciq_common\\src");
-		Map<String,List<Integer>> map=parsePath("D:\\eclipse\\workspace\\netty");
 		long t1=System.currentTimeMillis();
+		//Map<String,List<Integer>> map=parsePath("D:\\eclipse\\workspace\\eciq_apps\\src","D:\\eclipse\\workspace\\eciq_common\\src");
+		Map<String,List<Integer>> map=parsePath("D:\\eclipse\\workspace\\netty","E:\\Java\\jdk1.8.0\\src");
 		int count=0;
 		for(Map.Entry<String, List<Integer>> entry:map.entrySet()) {
 			System.out.println(entry.getKey());
@@ -52,7 +52,7 @@ public class CodeCounterUtils {
 	        System.out.println("总注释行数: " + entry.getValue().get(2));  
 	        System.out.println("总有效代码行数: " + entry.getValue().get(3));  
 	        System.out.println("总行数:" + (entry.getValue().get(1) + entry.getValue().get(2) + entry.getValue().get(3)));  
-	        System.out.println("统计时间: "+new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
+	        System.out.println("统计时间: "+new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date())+"\n");
 	        count+=(entry.getValue().get(1) + entry.getValue().get(2) + entry.getValue().get(3));
 		}
 		System.out.println("所有项目总计行数: "+count);

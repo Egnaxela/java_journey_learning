@@ -11,8 +11,6 @@
 
 package com.leetCode;
 
-import org.bytedeco.javacpp.presets.opencv_core.Str;
-
 /**  
  * Description:   
  * Copyright:   Copyright (c)2017 

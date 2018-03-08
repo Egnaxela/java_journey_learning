@@ -54,6 +54,8 @@
 	<classpathentry kind="lib" path="lib/webmagic-extension-0.7.3.jar"/>
 	<classpathentry kind="lib" path="lib/xsoup-0.3.1.jar"/>
 	<classpathentry kind="lib" path="lib/jol-core-0.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="lib/ezmorph-1.0.6.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/spring-aop"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/spring-aspects"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/spring-beans"/>

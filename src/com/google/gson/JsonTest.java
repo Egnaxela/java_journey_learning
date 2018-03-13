@@ -1,5 +1,9 @@
 package com.google.gson;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
@@ -12,7 +16,8 @@ import net.sf.json.JSONObject;
 public class JsonTest {  
     @SuppressWarnings({ "static-access", "deprecation", "unchecked" })  
     public static void main(String[] args) throws UnsupportedEncodingException {  
-        String JsonContext = new ReadJsonFileUtils().ReadFile("E:\\Apache Commons\\chinese-poetry-json\\authors.tang.json");  
+    	String path="E:\\Apache Commons\\chinese-poetry-json\\poet.song.0.json"; 
+        String JsonContext = new ReadJsonFileUtils().ReadFile(path);  
         JSONArray jsonArray = JSONArray.fromObject(JsonContext);  
         /*String s= java.net.URLDecoder.decode(JsonContext, "utf-8"); 
         JSONObject jsonArray = new JSONObject();*/  
@@ -33,4 +38,5 @@ public class JsonTest {
             System.out.println(temp.get("name"));  
         }  
     }  
+    
 }  

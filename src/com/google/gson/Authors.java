@@ -29,6 +29,12 @@ public class Authors {
 	
 	private String name;
 	private String desc;
+	
+	public Authors(String name, String desc) {
+		super();
+		this.name = name;
+		this.desc = desc;
+	}
 	public String getName() {
 		return name;
 	}

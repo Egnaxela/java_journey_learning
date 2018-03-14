@@ -90,6 +90,11 @@ public class ThreadStatusTest {
 		t2.start();
 	}
 
+	/**
+	 * 
+	* <p>描述:</p>
+	* @author Eg
+	 */
 	private static void WAITING() {
         final Object lock = new Object();
         Thread t1 = new Thread(){

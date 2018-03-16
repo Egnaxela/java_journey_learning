@@ -35,7 +35,6 @@
 	<classpathentry kind="lib" path="lib/assertj-core-1.5.0.jar"/>
 	<classpathentry kind="lib" path="lib/commons-codec-1.9.jar"/>
 	<classpathentry kind="lib" path="lib/commons-collections-3.2.2.jar"/>
-	<classpathentry kind="lib" path="lib/commons-io-1.3.2.jar"/>
 	<classpathentry kind="lib" path="lib/commons-lang3-3.1.jar"/>
 	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="lib/commons-pool2-2.4.2.jar"/>
@@ -56,6 +55,11 @@
 	<classpathentry kind="lib" path="lib/jol-core-0.3.1.jar"/>
 	<classpathentry kind="lib" path="lib/json-lib-2.4-jdk15.jar"/>
 	<classpathentry kind="lib" path="lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.6.jar" sourcepath="C:/Users/Administrator/Downloads/commons-io-2.6-src.zip">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/spring-aop"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/spring-aspects"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/spring-beans"/>

@@ -43,7 +43,7 @@ public class CodeCounterUtils {
 	public static void main(String[] args) {
 		long t1=System.currentTimeMillis();
 		//Map<String,List<Integer>> map=parsePath("D:\\eclipse\\workspace\\eciq_apps\\src","D:\\eclipse\\workspace\\eciq_common\\src");
-		Map<String,List<Integer>> map=parsePath("D:\\eclipse\\workspace\\netty","E:\\Java\\jdk1.8.0\\src");
+		Map<String,List<Integer>> map=parsePath("E:\\Apache Commons\\src-1.8.0\\java\\util","E:\\Java\\jdk1.8.0\\src");
 		int count=0;
 		for(Map.Entry<String, List<Integer>> entry:map.entrySet()) {
 			System.out.println(entry.getKey());

@@ -53,7 +53,7 @@ public class SelectionSort {
 	
 	/**
 	 * 
-	* <p>描述:</p>
+	* <p>描述:按下标来交换数组元素</p>
 	* @author Eg
 	 */
 	public static void swap(int[] arr,int i,int j) {

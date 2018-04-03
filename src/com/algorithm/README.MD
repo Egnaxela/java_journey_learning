@@ -35,7 +35,7 @@
 <ul><li>
   
 [小顶堆](http://b18d7b23.wiz03.com/share/s/2NznIz3wXkFc23YdT71GMR-R325xFI2vrAe42_axYs3kj9nX) (大顶堆 -> 最小100个数)</li>
-<li>Quick Select算法</li>
+<li>Quick Select算法(Tony Hoare)</li>
 </ul>
 
 </ul>

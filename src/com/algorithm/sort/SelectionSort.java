@@ -41,8 +41,13 @@ public class SelectionSort {
 		SortHelper.testSort("com.algorithm.sort.SelectionSort",
 				"selection",
 				SortHelper.changePackArr(
-						SortHelper.generateRandom(100000, 0, Integer.MAX_VALUE)
+						SortHelper.generateRandom(10000, 0, Integer.MAX_VALUE)
 						));
+		
+		SortHelper.testSort("com.algorithm.sort.SelectionSort",
+				"selection",
+						SortHelper.generateRandom(10000, 0, Integer.MAX_VALUE)
+						);
 	}
 	
 	

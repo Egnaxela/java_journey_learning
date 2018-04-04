@@ -49,6 +49,7 @@
   
   ```
   [InsertionSort.java](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/algorithm/sort/InsertionSort.java)
+  
   与选择排序最大的区别在于内层循环可以提前终止。这样在近乎有序的序列中，最优的时间复杂度可为 O(n) .
 </ol>
 

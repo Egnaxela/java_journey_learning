@@ -20,7 +20,36 @@
   }
   
   ```
+  [SelectionSort.java](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/algorithm/sort/SelectionSort.java)
 <li>插入排序</li>
+思想：
+
+  将一个元素插入到一个有序序列中，第一次一个元素不用插，从第二个元素开始与前面的有序序列比对插入。
+  ```java
+  public void insertionSort(int[] arr){
+    for(int i=1;i<arr.length;i++){
+      for(int j=i;j>0&&arr[j]>arr[j-1];j--){
+          swap(arr,j,j-1);      
+      }
+    }
+  }
+  ```
+  
+  优化版本
+  ```java
+  public void insertionSort(int[] arr){
+    for(int i=1;i<arr.length;i++){
+      int temp=arr[i];
+      int j;
+      for(j=i;j>0&&arr[j-1]>temp;j--)
+        arr[j]=arr[j-1];
+      arr[j]=temp;
+    }
+  }
+  
+  ```
+  [InsertionSort.java](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/algorithm/sort/InsertionSort.java)
+  与选择排序最大的区别在于内层循环可以提前终止。这样在近乎有序的序列中，最优的时间复杂度可为 O(n) .
 </ol>
 
 ### 进阶篇：

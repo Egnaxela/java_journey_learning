@@ -52,6 +52,21 @@ public class RandomNumberIoUtils {
 	}
 	
 	
+	public static void writeNumber(String pathName,String fileName,int[] arr) throws IOException {
+		pathName=StringUtils.isEmpty(pathName)?System.getProperty("user.dir"):pathName;
+		fileName=StringUtils.isEmpty(fileName)?"numberSort.txt":fileName;
+		File file=new File(pathName+"/"+fileName);
+		file.createNewFile();
+		FileWriter writer=new FileWriter(file);
+		StringBuffer sb=new StringBuffer();
+		for(int i=0;i<arr.length;i++) { //10000000 超过1000万内存溢出 Java heap space
+			sb.append(arr[i]+System.getProperty("line.separator"));
+		}
+		writer.write(sb.toString());
+		writer.flush();
+		writer.close();
+	}
+	
 	
 	
 }

@@ -11,6 +11,7 @@
 
 package com.algorithm.sort;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**  
@@ -32,10 +33,13 @@ public class UnusefulTemp {
 	public static void main(String[] args) {
 		int[] arr=SortHelper.generateRandom(10, 0, 100);
 		int[] arr2=Arrays.copyOf(arr, arr.length);
+		int[] arr3=Arrays.copyOf(arr, arr.length);
 		selectionSort(arr);
 		insertSort(arr2);
+		insertSort2(arr3);
 		System.out.println(Arrays.toString(arr));
 		System.out.println(Arrays.toString(arr2));
+		System.out.println(Arrays.toString(arr3));
 	}
 	
 	public  static void  selectionSort(int[] arr) {
@@ -54,6 +58,23 @@ public class UnusefulTemp {
 				SortHelper.swap(arr, j-1, j);
 			}
 		}
+	}
+	
+	public static void insertSort2(int[] arr) {
+		for(int i=1;i<arr.length;i++) {
+			int temp=arr[i];
+			int j;
+			for(j=i;j>0&&arr[j-1]>temp;j--) {
+				arr[j]=arr[j-1];
+			}
+			arr[j]=temp;
+		}
+	}
+	
+	
+	
+	public static void testArray() {
+		Array.newInstance(Integer.class, 2);
 	}
 	
 	

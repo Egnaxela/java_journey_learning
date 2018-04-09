@@ -248,7 +248,8 @@ public class SortHelper {
 		arr[j]=temp;
 	}
 	
-	public static void swap(Comparable[] arr,int i,int j) {
+	@SuppressWarnings("rawtypes")
+	public static void swap( Comparable[] arr,int i,int j) {
 		Comparable temp=arr[i];
 		arr[i]=arr[j];
 		arr[j]=temp;

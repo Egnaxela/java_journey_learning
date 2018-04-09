@@ -43,11 +43,15 @@ public class QuickSort {
 	//	SortHelper.testSort("com.algorithm.sort.SelectionSort","selection",arr);
 	//	SortHelper.testSort("com.algorithm.sort.InsertionSort", "insertionSort2",arr2);
 		SortHelper.testSort("com.algorithm.sort.MergeSort", "mergeSort", arr3);
-		SortHelper.testSort("com.algorithm.sort.QuickSort", "quickSort", arr);
+		SortHelper.testSort("com.algorithm.sort.QuickSort", "quickSort", arr2);
+		long t1=System.currentTimeMillis();
+		Arrays.sort(arr);
+		long t2=System.currentTimeMillis();
+		System.out.println("Arrays.sort: "+(t2-t1)/1000.0 +"s");
 	//	System.out.println(Arrays.toString(arr));
-		RandomNumberIoUtils.writeNumber(null, "sortNumber.out", arr);
-		RandomNumberIoUtils.writeNumber(null, "sortNumber1.out", arr2);
-		RandomNumberIoUtils.writeNumber(null, "sortNumber2.out", arr3);
+		RandomNumberIoUtils.writeNumber(null, "sortNumber1.out", arr);
+		RandomNumberIoUtils.writeNumber(null, "sortNumber2.out", arr2);
+		RandomNumberIoUtils.writeNumber(null, "sortNumber3.out", arr3);
 	}
 	
 	public static void quickSort(int[] arr) {

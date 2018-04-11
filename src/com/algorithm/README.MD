@@ -51,6 +51,30 @@
   [InsertionSort.java](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/algorithm/sort/InsertionSort.java)
   
   与选择排序最大的区别在于内层循环可以提前终止。这样在近乎有序的序列中，最优的时间复杂度可为 O(n) .
+  
+  <li>快速排序</li>
+  思想:
+  
+  选定一个基准，将一个数组分成两部分，使得左边部分的数组元素小于基准，右边部分的数组元素大于基准。再对左右部分数组元素继续进行递归分组。
+  最终左右部分会有一个或零个元素，即已经排好序了，终止递归。
+  ```java
+  public void quickSort(int[] arr){
+    sort(arr,0,arr.length-1);
+  }
+  
+  private void sort(int[] arr,int l,int r){
+    if(l>=r) return;
+    int p=partition(arr,l,r);
+    sort(arr,l,p-1);
+    sort(arr,p+1,r);
+  }
+  
+  private int partition(int[] arr,int l,int r){
+    int v=arr[l];
+  } 
+  ```
+  
+  
 </ol>
 
 ### 进阶篇：

@@ -74,8 +74,8 @@
     int j=l;
     for(int i=l+1;i<=r;i++){
       if(arr[i]<v){
+        swap(arr,i,j+1);
         j++;
-        swap(arr,i,j);
       }
     }
     swap(arr,l,j);

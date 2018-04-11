@@ -71,6 +71,15 @@
   
   private int partition(int[] arr,int l,int r){
     int v=arr[l];
+    int j=l;
+    for(int i=l+1;i<=r;i++){
+      if(arr[i]<v){
+        j++;
+        swap(arr,i,j);
+      }
+    }
+    swap(arr,l,j);
+    return j;
   } 
   ```
   [QuickSort.java](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/algorithm/sort/QuickSort.java)

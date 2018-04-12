@@ -6,3 +6,11 @@ Thread.sleep()签名如下：<br/>
 public static native void sleep(long millis) throws InterruptedException; 
 ```
 InterruptedException不是运行时异常，程序必须捕获处理。
+
+Object中wait、notify方法如下：<br/>
+```java
+public final native void notify();
+public final void wait() throws InterruptedException{
+  wait(0);
+}
+```

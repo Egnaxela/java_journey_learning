@@ -14,3 +14,5 @@ public final void wait() throws InterruptedException{
   wait(0);
 }
 ```
+非线性安全的Collection 如[ArrayListMultiThread](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/practicehighconcurrency/collections/ArrayListMultiThread.java)  [HashMapMultiThread](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/practicehighconcurrency/collections/HashMapMultiThread.java)
+

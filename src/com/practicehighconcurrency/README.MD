@@ -22,7 +22,7 @@ synchronized内部锁 与  ReentrantLock重入锁
 
 
 Semaphore信号量
-Semaphore实际是对锁的扩展，无论是内部锁还是重入锁一次都只允许一个线程访问一个资源，<br/>
+Semaphore 实际是对锁的扩展，无论是内部锁还是重入锁一次都只允许一个线程访问一个资源，<br/>
 而信号量可以指定多个线程同时访问一个资源。
 
 

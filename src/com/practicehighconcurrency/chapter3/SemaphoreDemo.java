@@ -26,7 +26,7 @@ import java.util.concurrent.Semaphore;
  * Modification History:  
  * Date         Author      Version     Description  
  * ------------------------------------------------------------------  
- * 2018年4月13日      Eg                      1.0         1.0 Version  
+ * 2018年4月13日      Eg         1.0         1.0 Version  
  */
 
 public class SemaphoreDemo implements Runnable{

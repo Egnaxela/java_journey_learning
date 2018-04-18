@@ -31,7 +31,7 @@ public final void wait() throws InterruptedException{
 
 ReentrantLock重入锁特性：
 
-1、可以指定公平锁还是非公平锁，而synchronized只能是非公平锁。如可以通过构造方法的初始值来决定
+1、可以指定公平锁还是非公平锁，而synchronized只能是非公平锁。可以通过构造方法的初始值来决定
 ```java
 public class ReentrantLock implements Lock,java.io.Serializable{
 ···

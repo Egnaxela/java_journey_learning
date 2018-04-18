@@ -49,7 +49,7 @@ public ReentrantLock(boolean fair){
 ```
 
 2、ReentrantLock提供一个Condition（条件），可以用来分组唤醒等待的线程，而不是像synchronized随机唤醒一个或全部唤醒。
-
+如[ReenterLockCondition.java](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/practicehighconcurrency/chapter3/ReenterLockCondition.java)
 3、ReentrantLock提供了一种能够中断等待锁的线程的机制，通过lock.lockInterruptibly()来实现。
 如[ReenterLock.java](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/practicehighconcurrency/chapter3/ReenterLock.java)<br/>
 #### Semaphore信号量

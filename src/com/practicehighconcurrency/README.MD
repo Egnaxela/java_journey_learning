@@ -59,5 +59,8 @@ Semaphore 实际是对锁的扩展，无论是内部锁还是重入锁一次都�
 而信号量可以指定多个线程同时访问一个资源。
 如[SemaphoreDemo.java](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/practicehighconcurrency/chapter3/SemaphoreDemo.java)
 
+#### ReadWriteLock读写分离锁 
+理论上所有读之间、读与写之间、写和写之间都是串行操作。如果在系统中读操作次数远大于写操作，则读写锁可以发挥最大作用。
+
 
 

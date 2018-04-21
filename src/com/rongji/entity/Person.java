@@ -30,7 +30,7 @@ import java.io.Serializable;
  * 2017年5月16日      Eg                      1.0         1.0 Version  
  */
 
-public class Person implements Serializable{
+public class Person implements Serializable,Comparable<Person>{
 	
 	private static final long serialVersionUID = 1006232800951627359L;
 	private String firstName;
@@ -106,6 +106,17 @@ public class Person implements Serializable{
 	public String toString() {
 		return "Person [firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + ", address=" + address
 				+ ", person=" + person + "]";
+	}
+
+	@Override
+	public int compareTo(Person p) {
+		if(this.age<p.age )
+			return -1;
+		else if(this.age>p.age) 
+			return 1;
+		else {
+			return this.lastName.compareTo(p.lastName);
+		}
 	}
 	
 

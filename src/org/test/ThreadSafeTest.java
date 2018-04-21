@@ -27,7 +27,7 @@ import com.sun.org.apache.bcel.internal.generic.NEW;
  * Modification History:  
  * Date         Author      Version     Description  
  * ------------------------------------------------------------------  
- * 2018年3月15日      Eg                      1.0         1.0 Version  
+ * 2018年3月15日      Eg          1.0         1.0 Version  
  */
 
 public class ThreadSafeTest {

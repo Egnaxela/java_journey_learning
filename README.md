@@ -15,7 +15,7 @@
 
 
 # 深入理解Java虚拟机
-[Java高并发](https://github.com/Egnaxela/java_journey_learning/tree/master/src/com/understandingTheJvm)
+[Java虚拟机](https://github.com/Egnaxela/java_journey_learning/tree/master/src/com/understandingTheJvm)
 
 # emoji push
 ![image](https://github.com/Egnaxela/java_resource/blob/master/img/IMG_0222.JPG)

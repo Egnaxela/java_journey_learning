@@ -1,0 +1,1197 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AlgorithmTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.algorithm.AlgorithmTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InsertionSort<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.algorithm.InsertionSort",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AlgoVisualizer<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.algorithm.imooc.heapSort.AlgoVisualizer",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AlgoVisualizer<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "com.algorithm.imooc.insertSort.AlgoVisualizer",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AlgoVisualizer<java_journey_learning>(2)",
+            "request": "launch",
+            "mainClass": "com.algorithm.imooc.mergeSort.AlgoVisualizer",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AlgoVisualizer<java_journey_learning>(3)",
+            "request": "launch",
+            "mainClass": "com.algorithm.imooc.quickSort.AlgoVisualizer",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AlgoVisualizer<java_journey_learning>(4)",
+            "request": "launch",
+            "mainClass": "com.algorithm.imooc.selectionSort.AlgoVisualizer",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BubbleSort<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.algorithm.sort.BubbleSort",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InsertionSort<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "com.algorithm.sort.InsertionSort",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeSort<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.algorithm.sort.MergeSort",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuickSort<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.algorithm.sort.QuickSort",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SelectionSort<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.algorithm.sort.SelectionSort",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UnusefulTemp<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.algorithm.sort.UnusefulTemp",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AnswerToEveryThing<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.funny.AnswerToEveryThing",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FourtyTwo<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.funny.FourtyTwo",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GuavaTester<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.google.GuavaTester",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GsonTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.google.gson.GsonTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JsonTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.google.gson.JsonTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BasicGrammar<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.interview.BasicGrammar",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CollectionsFrameWork<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.interview.CollectionsFrameWork",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyClassLoader<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.interview.MyClassLoader",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ObjectTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.interview.ObjectTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.interview.StringTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadLocalTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.interview.ThreadLocalTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.interview.ThreadTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AddTwoNumber2<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.AddTwoNumber2",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayPartition561<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.ArrayPartition561",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CustomSortString791<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.CustomSortString791",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExcelSheetColumnNumber171<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.ExcelSheetColumnNumber171",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExcelSheetColumnTitle168<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.ExcelSheetColumnTitle168",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindAllNumbersDisappearedinanArray448<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.FindAllNumbersDisappearedinanArray448",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HammingDistance461<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.HammingDistance461",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InvertBinaryTree226<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.InvertBinaryTree226",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JewelsandStones771<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.JewelsandStones771",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KeyboardRow500<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.KeyboardRow500",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KthLargestElementinanArray215<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.KthLargestElementinanArray215",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LengthOfLongestSubstring3<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.LengthOfLongestSubstring3",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestPalindromicSubstring5<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.LongestPalindromicSubstring5",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaximumDepthofBinaryTree104<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.MaximumDepthofBinaryTree104",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MedianofSortedArrays4<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.MedianofSortedArrays4",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeTree617<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.MergeTree617",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MoveZeroes3<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.MoveZeroes3",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NumberComplement476<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.NumberComplement476",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PalindromeNumber9<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.PalindromeNumber9",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RegularExpressionMatching10<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.RegularExpressionMatching10",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseInteger7<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.ReverseInteger7",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseWordsinaStringIII557<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.ReverseWordsinaStringIII557",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RomanToInteger13<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.RomanToInteger13",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RotateString796<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.RotateString796",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SelfDividingNumbers728<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.SelfDividingNumbers728",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Sqrtx69<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.Sqrtx69",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringUtils<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.StringUtils",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SudokuSolver37<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.SudokuSolver37",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SumofTwoIntegers371<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.SumofTwoIntegers371",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoSum1<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode.TwoSum1",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-_3Sum15<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.leetCode._3Sum15",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BadLockOnInteger<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.practicehighconcurrency.BadLockOnInteger",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SimpleWN<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.practicehighconcurrency.SimpleWN",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StopThreadUnsafe<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.practicehighconcurrency.StopThreadUnsafe",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadInterrupt<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.practicehighconcurrency.ThreadInterrupt",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadTest<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "com.practicehighconcurrency.ThreadTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountDownLatchDemo<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.practicehighconcurrency.chapter3.CountDownLatchDemo",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DivTask<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.practicehighconcurrency.chapter3.DivTask",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadWriteLockDemo<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.practicehighconcurrency.chapter3.ReadWriteLockDemo",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReenterLock<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.practicehighconcurrency.chapter3.ReenterLock",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReenterLockCondition<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.practicehighconcurrency.chapter3.ReenterLockCondition",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SemaphoreDemo<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.practicehighconcurrency.chapter3.SemaphoreDemo",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayListMultiThread<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.practicehighconcurrency.collections.ArrayListMultiThread",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HashMapMultiThread<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.practicehighconcurrency.collections.HashMapMultiThread",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RedisUtils<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.redis.RedisUtils",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CodeCounter<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.CodeCounter",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CodeCounterUtils<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.CodeCounterUtils",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JavavcCameraTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.JavavcCameraTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StatisticCodeLines<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.StatisticCodeLines",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UUIDKeyGenerator<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.UUIDKeyGenerator",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetCode<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.algorithm.LeetCode",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Examples<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.asciimg.Examples",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GifExamples<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.asciimg.GifExamples",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WeightTable<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.chapter6.WeightTable",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Encode<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.io.Encode",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FileDemo<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.io.FileDemo",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FileTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.io.FileTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AliyunEdu<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.lang.AliyunEdu",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClassLoaderTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.lang.ClassLoaderTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test001<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.lang.Test001",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test2<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.lang.Test2",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestPermutation<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.lang.TestPermutation",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadLocalTest<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "com.rongji.lang.ThreadLocalTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadTest<java_journey_learning>(2)",
+            "request": "launch",
+            "mainClass": "com.rongji.lang.ThreadTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Unbelievable<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.lang.Unbelievable",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WorldTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.lang.WorldTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BigDecimalDemo<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.math.BigDecimalDemo",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ServletTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.net.ServletTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SystemConfiguration<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.rcp.sys.SystemConfiguration",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HashMD5File<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.thread.HashMD5File",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StopThread<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.thread.StopThread",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestHash<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.thread.TestHash",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestReflection<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.thread.TestReflection",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BarcodeFactory<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.rongji.zxing.BarcodeFactory",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SpiderMark<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.spider.SpiderMark",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BasicDataTypeRangeTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.test.BasicDataTypeRangeTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FileTest<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "com.test.FileTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloRunnable<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.test.HelloRunnable",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NumberFormatTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.test.NumberFormatTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RuntimeTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.test.RuntimeTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadTest<java_journey_learning>(3)",
+            "request": "launch",
+            "mainClass": "com.test.ThreadTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MathUtils<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.util.MathUtils",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ObjectLayoutUtil<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.util.ObjectLayoutUtil",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RandomNumberIoUtils<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.util.RandomNumberIoUtils",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadUtils<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.util.ReadUtils",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AtomicIntegerTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "com.util.concurrent.AtomicIntegerTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "io.netty.util.Version",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<java_journey_learning>(2)",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Bootstrap<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.apache.catalina.startup.Bootstrap",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.chainsaw.Main",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.chainsaw.Main",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PropertyPrinter<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.config.PropertyPrinter",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PropertyPrinter<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.config.PropertyPrinter",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LF5Appender<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.lf5.LF5Appender",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LF5Appender<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.lf5.LF5Appender",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StartLogFactor5<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.lf5.StartLogFactor5",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StartLogFactor5<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.lf5.StartLogFactor5",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JMSSink<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.net.JMSSink",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JMSSink<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.net.JMSSink",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SimpleSocketServer<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.net.SimpleSocketServer",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SimpleSocketServer<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.net.SimpleSocketServer",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SocketServer<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.net.SocketServer",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SocketServer<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.net.SocketServer",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Roller<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.varia.Roller",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Roller<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "org.apache.log4j.varia.Roller",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Loader<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.bytedeco.javacpp.Loader",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Builder<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.bytedeco.javacpp.tools.Builder",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GLCanvasFrame<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.bytedeco.javacv.GLCanvasFrame",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JavaCV<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.bytedeco.javacv.JavaCV",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JavaCVCL<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.bytedeco.javacv.JavaCVCL",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ObjectFinder<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.bytedeco.javacv.ObjectFinder",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PS3EyeFrameGrabber<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.bytedeco.javacv.PS3EyeFrameGrabber",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EntCacheTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.concurrency.EntCacheTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NoVisibility<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.concurrency.NoVisibility",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestHashMapLock<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.concurrency.TestHashMapLock",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadDeadlock<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.concurrency.ThreadDeadlock",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadModle<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.concurrency.ThreadModle",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadStatusTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.concurrency.ThreadStatusTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HtmlToPlainText<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.jsoup.examples.HtmlToPlainText",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ListLinks<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.jsoup.examples.ListLinks",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<java_journey_learning>(1)",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DiscardServer<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.netty.DiscardServer",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EchoClient<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.netty.inaction.EchoClient",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EchoServer<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.netty.inaction.EchoServer",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HS_SA_Support<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.openjdk.jol.util.HS_SA_Support",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadOutPutTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.test.ThreadOutPutTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadSafe2Test<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.test.ThreadSafe2Test",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadSafeTest<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "org.test.ThreadSafeTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreadTest<java_journey_learning>(4)",
+            "request": "launch",
+            "mainClass": "org.test.ThreadTest",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AppStore<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "us.codecraft.webmagic.example.AppStore",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BaiduBaike<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "us.codecraft.webmagic.example.BaiduBaike",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GithubRepo<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "us.codecraft.webmagic.example.GithubRepo",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GithubRepoApi<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "us.codecraft.webmagic.example.GithubRepoApi",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GithubRepoPageMapper<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "us.codecraft.webmagic.example.GithubRepoPageMapper",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MonitorExample<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "us.codecraft.webmagic.example.MonitorExample",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OschinaBlog<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "us.codecraft.webmagic.example.OschinaBlog",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PatternProcessorExample<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "us.codecraft.webmagic.example.PatternProcessorExample",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BaiduBaikePageProcessor<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "us.codecraft.webmagic.processor.example.BaiduBaikePageProcessor",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GithubRepoPageProcessor<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "us.codecraft.webmagic.processor.example.GithubRepoPageProcessor",
+            "projectName": "java_journey_learning"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ZhihuPageProcessor<java_journey_learning>",
+            "request": "launch",
+            "mainClass": "us.codecraft.webmagic.processor.example.ZhihuPageProcessor",
+            "projectName": "java_journey_learning"
+        }
+    ]
+}

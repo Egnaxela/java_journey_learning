@@ -4,9 +4,9 @@
  */</template><template autoinsert="false" context="overridecomment_context" deleted="false" description="Comment for overriding methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.overridecomment" name="overridecomment"/><template autoinsert="false" context="filecomment_context" deleted="false" description="Comment for created Java files" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.filecomment" name="filecomment">/**  &#13;
  * FileName:     &#13;
  * @Description: &#13;
- * Company       rongji&#13;
+ * Company       &#13;
  * @version      1.0&#13;
- * @author:      Eg &#13;
+ * @author:      Pluto&#13;
  * @version:     1.0&#13;
  * Createdate:   ${date} ${time}  &#13;
  *  &#13;
@@ -18,35 +18,35 @@
  */</template><template autoinsert="false" context="methodcomment_context" deleted="false" description="Comment for non-overriding methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.methodcomment" name="methodcomment">/**
 * &lt;p&gt;描述:&lt;/p&gt;
 * ${tags}
-* @author Eg
+* @author Pluto
 */
 
 </template><template autoinsert="false" context="fieldcomment_context" deleted="false" description="Comment for fields" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.fieldcomment" name="fieldcomment">/**  
  * Description:   
- * Copyright:   Copyright (c)2017  
+ * Copyright:   Copyright (c)2019  
  * Company:     
- * @author:     Eg 
+ * @author:     Pluto
  * @version:    1.0  
  * Create at:   ${date} ${time}  
  *  
  * Modification History:  
  * Date         Author      Version     Description  
  * ------------------------------------------------------------------  
- * ${date}      Eg                     1.0         1.0 Version  
+ * ${date}      Pluto       1.0         1.0 Version  
  */  
 
 </template><template autoinsert="false" context="typecomment_context" deleted="false" description="Comment for created types" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.typecomment" name="typecomment">/**  &#13;
  * Description:   &#13;
- * Copyright:   Copyright (c)2017 &#13;
- * Company:     rongji  &#13;
- * @author:     Eg  &#13;
+ * Copyright:   Copyright (c)2019 &#13;
+ * Company:       &#13;
+ * @author:     Pluto &#13;
  * @version:    1.0  &#13;
  * Create at:   ${date} ${time}  &#13;
  *  &#13;
  * Modification History:  &#13;
  * Date         Author      Version     Description  &#13;
  * ------------------------------------------------------------------  &#13;
- * ${date}      Eg                      1.0         1.0 Version  &#13;
+ * ${date}      Pluto       1.0         1.0 Version  &#13;
  */  &#13;
 &#13;
 </template><template autoinsert="true" context="gettercomment_context" deleted="false" description="Comment for getter method" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.gettercomment" name="gettercomment">/**

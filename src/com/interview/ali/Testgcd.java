@@ -76,6 +76,8 @@ public class Testgcd {
 
 
 class Employee implements Cloneable,Serializable{
+	
+	private static final long serialVersionUID = 5428970513216187221L;
 	private String name;
 	private int age;
 	private float salary;

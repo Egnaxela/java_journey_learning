@@ -36,7 +36,7 @@ import org.junit.Test;
  * 2019年2月17日      Pluto       1.0         1.0 Version  
  */
 
-public class Testgcd {
+public class ObjectInitTest {
 
 	@Test
 	public void name() throws InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException, FileNotFoundException, IOException, ClassNotFoundException {
@@ -49,6 +49,8 @@ public class Testgcd {
 		System.out.println(e1);
 		
 		//
+		Class.forName("com.interview.ali.ObjectInitTest").newInstance();
+		
 		Employee e2= Employee.class.newInstance();
 		e2.setName("May"); e2.setAge(24); e2.setSalary(25000);
 		System.out.println(e2);
@@ -71,7 +73,14 @@ public class Testgcd {
 		inputStream.close();
 		e5.setName("Rose"); e5.setAge(19); e5.setSalary(22000);
 		System.out.println(e5);
+		
+
+		for(EnumTest e:EnumTest.values()) {
+			System.out.println(e);
+		}
+		
 	}
+	
 }
 
 
@@ -136,5 +145,12 @@ class Employee implements Cloneable,Serializable{
 		}
 		return obj;
 	}
+	
+}
+
+
+enum EnumTest{
+
+    MON, TUE, WED, THU, FRI, SAT, SUN;
 	
 }

@@ -65,7 +65,7 @@ public class MyHashMap<K,V> extends AbstractMap<K,V>  implements Map<K, V>,Clone
 	
 	public static final int hash(Object key) {
 		int h;
-		//计算key的hash值  在异或计算的hash值右移16位 
+		//计算key出的hash值  再异或 计算的hash值右移16位  整个作为key的hash值返回
 		return (key==null)?0 :(h=key.hashCode())^(h>>>16);
 	}
 	
@@ -90,6 +90,7 @@ public class MyHashMap<K,V> extends AbstractMap<K,V>  implements Map<K, V>,Clone
             tab[i] = newNode(hash, key, value, null);
         else {
             Node<K,V> e; K k;
+            //如果取得的Node类型的key与要放入的key值相同，则直接覆盖
             if (p.hash == hash &&
                 ((k = p.key) == key || (key != null && key.equals(k))))
                 e = p;

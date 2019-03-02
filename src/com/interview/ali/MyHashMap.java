@@ -62,12 +62,15 @@ public class MyHashMap<K,V> extends AbstractMap<K,V>  implements Map<K, V>,Clone
 		return null;
 	}
 	
+	
 	public static final int hash(Object key) {
 		int h;
+		//计算key的hash值  在异或计算的hash值右移16位 
 		return (key==null)?0 :(h=key.hashCode())^(h>>>16);
 	}
 	
 	public V put(K key,V value) {
+		
 		return putVal(hash(key),key,value,false,true);
 	}
 	
@@ -77,9 +80,12 @@ public class MyHashMap<K,V> extends AbstractMap<K,V>  implements Map<K, V>,Clone
 		Node<K, V> p;
 		int n,i;
 		
+		//判断Node 类型的数组是否为null或者为空,若为空则直接调用resize()初始一个默认长度为16 的数组
 		if((tab=table)==null||(n=tab.length)==0)
 			n=(tab=resize()).length;
 		
+		//(n-1)&hash 把数组长度减一 & 传过来的hash值 作为数组小标，
+		//若该小标处的数组元素为空，则创建一个Node 直接放入
 		if ((p = tab[i = (n - 1) & hash]) == null)
             tab[i] = newNode(hash, key, value, null);
         else {
@@ -92,7 +98,9 @@ public class MyHashMap<K,V> extends AbstractMap<K,V>  implements Map<K, V>,Clone
             else {
                 for (int binCount = 0; ; ++binCount) {
                     if ((e = p.next) == null) {
+                    	//new 一个新Node并且把当前的next指向该对象
                         p.next = newNode(hash, key, value, null);
+                        //当链表长度大于8时,就将链表转化为红黑树来处理
                         if (binCount >= TREEIFY_THRESHOLD - 1) // -1 for 1st
                             treeifyBin(tab, hash);
                         break;

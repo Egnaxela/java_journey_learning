@@ -11,6 +11,12 @@
 
 package com.microservice;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
 /**  
  * Description:   
  * Copyright:   Copyright (c)2019 
@@ -25,6 +31,7 @@ package com.microservice;
  * 2019年2月28日      Pluto       1.0         1.0 Version  
  */
 
+@Controller
 public class BootTest {
-
+	
 }

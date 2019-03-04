@@ -80,6 +80,7 @@ public class MyHashMap<K,V> extends AbstractMap<K,V>  implements Map<K, V>,Clone
 		Node<K, V> p;
 		int n,i;
 		
+		
 		//判断Node 类型的数组是否为null或者为空,若为空则直接调用resize()初始一个默认长度为16 的数组
 		if((tab=table)==null||(n=tab.length)==0)
 			n=(tab=resize()).length;

@@ -28,24 +28,24 @@ package com.interview.ali;
 public class FatherInit {
 
 	
-	private static String AstaticField="AstaticField";
+	private static String FatherstaticField="FatherstaticField";
 	
-	private String AnonstaticField="Anon-static Field";
+	private String FathernonstaticField="Fathernon-static Field";
 	
 	static {
-		System.out.println("Astatic block"); //静态代码块
-		System.out.println(AstaticField);   //静态变量
+		System.out.println("Fatherstatic block"); //静态代码块
+		System.out.println(FatherstaticField);   //静态变量
 	}
 	
 	{
-		System.out.println("Anon-static block"); //非静态代码块
-		System.out.println(AnonstaticField); //非静态变量
+		System.out.println("Fathernon-static block"); //非静态代码块
+		System.out.println(FathernonstaticField); //非静态变量
 	}
 	
 	
 	
 	public FatherInit(){
-		System.out.println("Aconstructor"); //构造器
+		System.out.println("Fatherconstructor"); //构造器
 	}
 	
 	public static void main(String[] args) {

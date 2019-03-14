@@ -3,11 +3,11 @@
 # 微服务
 [Microservice Architecture](https://github.com/Egnaxela/java_journey_learning/tree/master/src/com/microservice)
 
-# 算法
-[Algorithms](https://github.com/Egnaxela/java_journey_learning/tree/master/src/com/algorithms)
-
 # 数据结构与算法
 [Data Structure & Algorithm](https://github.com/Egnaxela/java_journey_learning/tree/master/src/com/algorithm)
+
+# 算法
+[Algorithms](https://github.com/Egnaxela/java_journey_learning/tree/master/src/com/algorithms)
 
 # 实战Java高并发程序设计
 [Java高并发](https://github.com/Egnaxela/java_journey_learning/tree/master/src/com/practicehighconcurrency)

@@ -21,5 +21,3 @@
 # Spring框架源码
 [SpringFramework](https://github.com/Egnaxela/springLearning)
 
-# emoji push
-![image](https://github.com/Egnaxela/java_resource/blob/master/img/IMG_0222.JPG)

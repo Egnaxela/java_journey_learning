@@ -1,2 +1,4 @@
-### 数组统计分析
-* 当数组的长度为n时，且数组中的每一个元素都1<=a[i]<=n时。
+#### Array
+
+#### Linked List
+* [Reverse Linked List](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/leetCode/ReverseLinkedList206.java) 

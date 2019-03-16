@@ -22,7 +22,7 @@ package com.leetCode;
  * Modification History:  
  * Date         Author      Version     Description  
  * ------------------------------------------------------------------  
- * 2017年9月29日      Eg                      1.0         1.0 Version  
+ * 2017年9月29日      Eg          1.0         1.0 Version  
  */
 
 
@@ -44,14 +44,10 @@ public class AddTwoNumber2 {
 	}
 	
 	public static ListNode addTwoNumber001(ListNode l1,ListNode l2) {
-		ListNode result=new ListNode();
-		return result;
+		return null;
+		
 	}
 	
 	 
 }
 
-
-class ListNode{
-	
-}

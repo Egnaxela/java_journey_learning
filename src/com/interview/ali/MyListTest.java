@@ -15,8 +15,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import org.bytedeco.javacpp.presets.opencv_core.Str;
-
 /**  
  * Description:   
  * Copyright:   Copyright (c)2019 

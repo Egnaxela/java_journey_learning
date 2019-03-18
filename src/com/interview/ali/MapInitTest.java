@@ -13,7 +13,6 @@ package com.interview.ali;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 
 import org.junit.Test;
 

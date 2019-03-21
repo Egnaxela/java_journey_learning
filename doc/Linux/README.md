@@ -36,11 +36,13 @@ Linux的运行级别:
 
 ##### Ubuntu
 1、设置root密码
-  sudo passwd
+  sudo passwd  
+  
 2、安装SSH服务及启动
   sudo apt-get install openssh-server
   sudo /etc/init.d/ssh start
-  ps -e|grep ssh
+  ps -e|grep ssh  
+
 3、安装vim
   sudo apt-get install vim
   vim -v

@@ -9,7 +9,7 @@
  *  
  */  
 
-package com.algorithm.interview;
+package com.algorithm.interview.geekbang;
 
 import com.leetCode.ListNode;
 

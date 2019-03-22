@@ -1,8 +1,5 @@
 # Seize the time， make the life extraordinary
 
-# 微服务
-[Microservice Architecture](https://github.com/Egnaxela/java_journey_learning/tree/master/src/com/microservice)
-
 # 数据结构与算法
 [Data Structure & Algorithm](https://github.com/Egnaxela/java_journey_learning/tree/master/src/com/algorithm)
 
@@ -17,6 +14,9 @@
 
 # LeetCode 题解
 [LeetCode](https://github.com/Egnaxela/java_journey_learning/tree/master/src/com/leetCode)
+
+# 微服务
+[Microservice Architecture](https://github.com/Egnaxela/java_journey_learning/tree/master/src/com/microservice)
 
 # Spring框架源码
 [SpringFramework](https://github.com/Egnaxela/springLearning)

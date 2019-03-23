@@ -1,6 +1,19 @@
 ## 常见的数据结构
 
 
+* Array 数组
+* Stack / Queue 栈/队列
+* PriorityQueue 优先队列
+* Linked List 链表
+* Tree/Binary Tree 树/二叉树
+* Binary Search Tree  二叉搜索树
+* HashTable 哈希表
+* Disjoint Set 并查集
+* Tire 字典树或单词查找树（一种高效树，有必要单独出来）
+* BloomFilter  布隆过滤器
+* LRU Cache
+[基础的数据结构](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/algorithm/geekbang/README.MD)
+
 ## 常用的算法分析
 ### 基础篇：
 一、排序算法<br/>

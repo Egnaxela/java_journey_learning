@@ -9,7 +9,7 @@
  *  
  */  
 
-package com.algorithm.interview.geekbang;
+package com.algorithm.geekbang;
 
 import com.leetCode.ListNode;
 
@@ -35,6 +35,13 @@ public class ReverseLinkedList {
 		ListNode.printNode(L);
 	}
 	
+	/**
+	 * 
+	* <p>描述:</p>
+	* @param head
+	* @return
+	* @author Pluto
+	 */
 	public static ListNode reverseLinkedList(ListNode head) {
 		ListNode newListNode = null;
 		while (head != null) {

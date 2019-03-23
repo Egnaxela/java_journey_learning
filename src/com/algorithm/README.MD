@@ -12,7 +12,7 @@
 * Tire 字典树或单词查找树（一种高效树，有必要单独出来）
 * BloomFilter  布隆过滤器
 * LRU Cache  
-[基础的数据结构](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/algorithm/geekbang/README.MD)
+[基础的数据结构](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/algorithm/geekbang)
 
 ## 常用的算法分析
 ### 基础篇：

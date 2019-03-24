@@ -37,17 +37,29 @@ public class ReverseLinkedList {
 	
 	/**
 	 * 
-	* <p>描述:</p>
+	* <p>描述:
+	* 反转一个链表：
+	* 将节点的next指向前一个节点即可。
+	* 
+	* 在遍历列表时，需要将当前节点的next指向前一个节点，但由于当前节点没有前一个节点的引用，因此必须事先存储它的前一个节点
+	* 注意把当前节点的next指向前一个节点时，此时当前节点原先的next指向就无法被正常遍历，为了避免这种“断链”的情况
+	* 需要在修改指向之前，保存当前节点的next指向。	
+	* </p>
 	* @param head
 	* @return
 	* @author Pluto
 	 */
 	public static ListNode reverseLinkedList(ListNode head) {
+		//创建 ListNode 用来保存当前节点的前一个节点
 		ListNode newListNode = null;
 		while (head != null) {
+			//避免断链的情况，需要先保存当前节点的next指向
 			ListNode temp = head.next;
+			//改变当前节点的指向为前一个节点
 			head.next = newListNode;
 			newListNode = head;
+			
+			//改变指向完成后再讲当前节点原先的next 赋给 当前节点继续下一次遍历
 			head = temp;
 		}
 		return newListNode;

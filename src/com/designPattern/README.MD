@@ -12,7 +12,7 @@
   - 工厂方法模式
   - 抽象工厂模式
   - 建造者模式
-  - 单例模式
+  - [单例模式](https://github.com/Egnaxela/java_journey_learning/edit/master/src/com/designPattern/creational/singleton)
   - 原型模式
 - 结构型模式(7种)
   - 适配器模式

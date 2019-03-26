@@ -7,3 +7,4 @@
   
 饿汉式：在类初始化就初始化实例，如果不使用的话会造成内存浪费  
 [HungrySingleton](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/designPattern/creational/singleton/HungrySingleton.java)
+

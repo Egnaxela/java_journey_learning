@@ -27,7 +27,9 @@ package com.designPattern.creational.singleton;
 
 public class StaticInnerClassSingleton {
 	private StaticInnerClassSingleton() {
-		
+		if(InnerClass.staticInnerClassSingleton!=null) {
+			throw new RuntimeException("单例模式构造器禁止反射调用");
+		}
 	}
 	
 	//基于静态内部类的单例模式

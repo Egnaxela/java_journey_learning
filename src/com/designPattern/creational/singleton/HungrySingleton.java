@@ -11,6 +11,8 @@
 
 package com.designPattern.creational.singleton;
 
+import java.io.Serializable;
+
 /**  
  * Description:   
  * Copyright:   Copyright (c)2019 
@@ -25,7 +27,10 @@ package com.designPattern.creational.singleton;
  * 2019年3月26日      Pluto       1.0         1.0 Version  
  */
 
-public class HungrySingleton {
+public class HungrySingleton implements Serializable{
+	
+	//测试反序列化时添加的  FIXME
+	private static final long serialVersionUID = 5454112183513574382L;
 	
 	//在类加载的时候就初始化
 	private final static HungrySingleton hungrySingleton;
@@ -35,11 +40,18 @@ public class HungrySingleton {
 	}
 	
 	private HungrySingleton() {
-		
+		//反射防御
+		if(hungrySingleton!=null) {
+			throw new  RuntimeException("单例模式禁止反射调用");
+		}
 	}
 	
 	public static HungrySingleton getInstance() {
 		return hungrySingleton;
 	}
 
+	//测试反序列化时添加的
+	private Object readResolve() {
+		return hungrySingleton;
+	}
 }

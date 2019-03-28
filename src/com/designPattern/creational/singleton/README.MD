@@ -39,7 +39,7 @@
 这样就可以避免了反射攻击。
 同时枚举类也默认实现了Serializable接口    public abstract class Enum<E extends Enum<E>> implements Comparable<E>, Serializable {}
 
-单例模式在JDK中的应用：java.lang.Runtime  java.text.NumberFormat 等
+单例模式在JDK中的应用：java.lang.Runtime  java.text.NumberFormat 等  
 Runtime就是一个简单的饿汉式的单例模式
 ```java
 public class Runtime {
@@ -64,6 +64,7 @@ public class Runtime {
 ```
 
 在Spring中的应用  org.springframework.beans.factory.config.AbstractFactoryBean<T>
+	
 ```java
 	public final T getObject() throws Exception {
 		if (isSingleton()) {
@@ -75,7 +76,7 @@ public class Runtime {
 		}
 	}
 	
-		private T getEarlySingletonInstance() throws Exception {
+	private T getEarlySingletonInstance() throws Exception {
 		Class[] ifcs = getEarlySingletonInterfaces();
 		if (ifcs == null) {
 			throw new FactoryBeanNotInitializedException(

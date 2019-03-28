@@ -60,7 +60,7 @@ public class Runtime {
     /** Don't let anyone else instantiate this class */
     private Runtime() {}
     ...
-
+}
 ```
 
 在Spring中的应用  org.springframework.beans.factory.config.AbstractFactoryBean<T>

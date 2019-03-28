@@ -11,8 +11,10 @@
 
 package com.interview.day0;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 /**  
  * Description:   
@@ -29,14 +31,43 @@ import java.util.List;
  */
 
 public class ArrayListTest {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		List<String> list=new ArrayList<String>();
-		list.add("Mike");
-		list.add("Mary");
-		list.add("May");
+		System.out.println(getElementDataLength(list));
+		System.out.println(list.size());
 		list.add("Michael");
-		list.add("Miki");
-		list.add("Merry");
+		System.out.println(getElementDataLength(list));
+		System.out.println(list.size());
 		System.out.println(list);
+		
+		List<String> list2=new ArrayList<String>();
+		System.out.println(getElementDataLength(list2));
+		System.out.println(list2.size());
+		for(int i=0;i<11;i++) {
+			list2.add("Michael:"+System.currentTimeMillis());
+		}
+		System.out.println(getElementDataLength(list2));
+		System.out.println(list2.size());
+		System.out.println(list2);
+		
+	}
+	
+	public static Integer getElementDataLength(List list) {
+		Integer length =null;
+		//通过反射获取elementData的值
+		try {
+			Field field=list.getClass().getDeclaredField("elementData");
+			field.setAccessible(true);
+			Object[] obj=(Object[]) field.get(list);
+			return obj.length;
+		} catch (NoSuchFieldException | SecurityException e) {
+			e.printStackTrace();
+		} catch (IllegalArgumentException e) {
+			e.printStackTrace();
+		} catch (IllegalAccessException e) {
+			e.printStackTrace();
+		}
+		return length;
+		
 	}
 }

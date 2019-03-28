@@ -1,7 +1,7 @@
 #### Forward
-若未做特殊说明默认基于JDK1.8
+**若未做特殊说明默认基于JDK1.8**
 
-ArrayList
+ArrayList  
 ArrayList底层维护一个Object[]的数组，通过对数组的动态扩容来实现数据的存放。
 
 默认提供了三个构造方法
@@ -11,7 +11,7 @@ public class ArrayList<E> extends AbstractList<E>
         
      transient Object[] elementData; //Object[]数组，使用transient关键字表明该元素不被序列化  
         
-    //自定义初始化长度的数组    
+    //自定义初始化长度的数组的构造方法
     public ArrayList(int initialCapacity) {
         super();
         if (initialCapacity < 0)
@@ -39,4 +39,4 @@ public class ArrayList<E> extends AbstractList<E>
  ...
 }       
 ```
-关于[Bug6260652](https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6260652)
+关于[Bug 6260652](https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6260652)

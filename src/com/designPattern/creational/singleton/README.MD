@@ -38,3 +38,57 @@
 ```
 这样就可以避免了反射攻击。
 同时枚举类也默认实现了Serializable接口    public abstract class Enum<E extends Enum<E>> implements Comparable<E>, Serializable {}
+
+单例模式在JDK中的应用：java.lang.Runtime  java.text.NumberFormat 等
+Runtime就是一个简单的饿汉式的单例模式
+```java
+public class Runtime {
+    private static Runtime currentRuntime = new Runtime();
+
+    /**
+     * Returns the runtime object associated with the current Java application.
+     * Most of the methods of class <code>Runtime</code> are instance
+     * methods and must be invoked with respect to the current runtime object.
+     *
+     * @return  the <code>Runtime</code> object associated with the current
+     *          Java application.
+     */
+    public static Runtime getRuntime() {
+        return currentRuntime;
+    }
+
+    /** Don't let anyone else instantiate this class */
+    private Runtime() {}
+    ...
+
+```
+
+在Spring中的应用  org.springframework.beans.factory.config.AbstractFactoryBean<T>
+```java
+	public final T getObject() throws Exception {
+		if (isSingleton()) {
+			//判断是否是单例的，如果是单例的且没有被初始化的就返回一个早期的单例初始化对象
+			return (this.initialized ? this.singletonInstance : getEarlySingletonInstance());
+		}
+		else {
+			return createInstance();
+		}
+	}
+	
+		private T getEarlySingletonInstance() throws Exception {
+		Class[] ifcs = getEarlySingletonInterfaces();
+		if (ifcs == null) {
+			throw new FactoryBeanNotInitializedException(
+					getClass().getName() + " does not support circular references");
+		}
+		if (this.earlySingletonInstance == null) {
+			//通过代理来获取对象
+			this.earlySingletonInstance = (T) Proxy.newProxyInstance(
+					this.beanClassLoader, ifcs, new EarlySingletonInvocationHandler());
+		}
+		return this.earlySingletonInstance;
+	}
+
+```
+
+

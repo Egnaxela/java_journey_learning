@@ -9,7 +9,7 @@
 [HungrySingleton](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/designPattern/creational/singleton/HungrySingleton.java)
 
 还有第三种方式来实现单例模式，就是使用Enum类
-在《Effective Java 第二版》中的第三条规则中就推荐使用Enum类
+在《Effective Java 第二版》中的第三条规则中就推荐使用Enum类  
 因为反射时使用Constructor.newInstance()的方法对枚举类进行特殊处理，如下
 ```java
 

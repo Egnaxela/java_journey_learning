@@ -66,6 +66,9 @@ public class Runtime {
 在Spring中的应用  org.springframework.beans.factory.config.AbstractFactoryBean<T>
 	
 ```java
+public abstract class AbstractFactoryBean<T>
+		implements FactoryBean<T>, BeanClassLoaderAware, BeanFactoryAware, InitializingBean, DisposableBean {
+		
 	public final T getObject() throws Exception {
 		if (isSingleton()) {
 			//判断是否是单例的，如果是单例的且没有被初始化的就返回一个早期的单例初始化对象
@@ -89,7 +92,8 @@ public class Runtime {
 		}
 		return this.earlySingletonInstance;
 	}
-
+...
+}
 ```
 
 

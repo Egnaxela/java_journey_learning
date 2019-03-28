@@ -11,6 +11,9 @@
 
 package com.interview.day0;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**  
  * Description:   
  * Copyright:   Copyright (c)2019 
@@ -26,5 +29,14 @@ package com.interview.day0;
  */
 
 public class ArrayListTest {
-
+	public static void main(String[] args) {
+		List<String> list=new ArrayList<String>();
+		list.add("Mike");
+		list.add("Mary");
+		list.add("May");
+		list.add("Michael");
+		list.add("Miki");
+		list.add("Merry");
+		System.out.println(list);
+	}
 }

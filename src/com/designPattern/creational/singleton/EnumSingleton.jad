@@ -1,0 +1,57 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   EnumSingleton.java
+
+package com.designPattern.creational.singleton;
+
+
+public final class EnumSingleton extends Enum
+{
+
+    private EnumSingleton(String s, int i)
+    {
+        super(s, i);
+    }
+
+    public Object getData()
+    {
+        return data;
+    }
+
+    public void setData(Object data)
+    {
+        this.data = data;
+    }
+
+    public static EnumSingleton getInstance()
+    {
+        return INSTANCE;
+    }
+
+    public static EnumSingleton[] values()
+    {
+        EnumSingleton aenumsingleton[];
+        int i;
+        EnumSingleton aenumsingleton1[];
+        System.arraycopy(aenumsingleton = ENUM$VALUES, 0, aenumsingleton1 = new EnumSingleton[i = aenumsingleton.length], 0, i);
+        return aenumsingleton1;
+    }
+
+    public static EnumSingleton valueOf(String s)
+    {
+        return (EnumSingleton)Enum.valueOf(com/designPattern/creational/singleton/EnumSingleton, s);
+    }
+
+    public static final EnumSingleton INSTANCE;
+    private Object data;
+    private static final EnumSingleton ENUM$VALUES[];
+
+    static 
+    {
+        INSTANCE = new EnumSingleton("INSTANCE", 0);
+        ENUM$VALUES = (new EnumSingleton[] {
+            INSTANCE
+        });
+    }
+}

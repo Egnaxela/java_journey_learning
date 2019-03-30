@@ -40,8 +40,8 @@ public class ArrayList<E> extends AbstractList<E>
  ...
 }       
 ```
-关于[Bug 6260652](https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6260652)
-Arrays.asList(x).toArray().getClass() should be Object[].class
+关于[Bug 6260652](https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6260652)  
+Arrays.asList(x).toArray().getClass() should be Object[].class  
 在于Arrays.asList().toArray()    
 ```java
 public class Arrays {
@@ -123,4 +123,5 @@ public class Arrays {
         elementData = Arrays.copyOf(elementData, newCapacity);
     }
 ```
+
 例子：[ArrayListTest]()

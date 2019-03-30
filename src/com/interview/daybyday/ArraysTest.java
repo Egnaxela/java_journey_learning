@@ -9,7 +9,7 @@
  *  
  */  
 
-package com.interview.day0;
+package com.interview.daybyday;
 
 import java.util.ArrayList;
 import java.util.Arrays;

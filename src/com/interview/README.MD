@@ -87,6 +87,29 @@ public class Arrays {
 ```
 扩容机制
 ```java
+	
+	public boolean add(E e) {
+        ensureCapacityInternal(size + 1);  // Increments modCount!!
+        elementData[size++] = e;
+        return true;
+    }
+    
+    private void ensureCapacityInternal(int minCapacity) {
+        if (elementData == EMPTY_ELEMENTDATA) {//如果是一个空的数组，则直接创建一个默认大小为10的数组
+            minCapacity = Math.max(DEFAULT_CAPACITY, minCapacity);
+        }
+
+        ensureExplicitCapacity(minCapacity);
+    }
+
+    private void ensureExplicitCapacity(int minCapacity) {
+        modCount++;
+
+        // overflow-conscious code
+        //如果需要的存放空间数 大于  elementData的容积，就进行扩容
+        if (minCapacity - elementData.length > 0)
+            grow(minCapacity);
+    }
 
     private void grow(int minCapacity) {
         // overflow-conscious code
@@ -100,3 +123,4 @@ public class Arrays {
         elementData = Arrays.copyOf(elementData, newCapacity);
     }
 ```
+例子：[ArrayListTest]()

@@ -35,6 +35,7 @@ public class ArrayListTest {
 	
 	public static void main(String[] args) throws Exception {
 		List<String> list=new ArrayList<String>();
+		//未放入元素时，默认的容量
 		System.out.println(getElementDataLength(list));
 		System.out.println(list.size());
 		list.add("Michael");
@@ -42,17 +43,20 @@ public class ArrayListTest {
 		System.out.println(list.size());
 		System.out.println(list);
 		
+		//放入一个元素时的容量
 		List<String> list2=new ArrayList<String>();
 		System.out.println(getElementDataLength(list2));
 		System.out.println(list2.size());
 		for(int i=0;i<11;i++) {
 			list2.add("Michael:"+i);
 		}
-		list2.add("Michael:"+3);
+		
+		//ArrayList扩容机制
 		System.out.println(getElementDataLength(list2));
 		System.out.println(list2.size());
 		System.out.println(list2);
 		System.out.println("----------------------------");
+		list2.add("Michael:"+3);
 		ergodicList(list2);
 		ergodicList1(list2);
 		ergodicList2(list2);

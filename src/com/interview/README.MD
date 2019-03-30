@@ -124,4 +124,4 @@ public class Arrays {
     }
 ```
 
-例子：[ArrayListTest]()
+例子：[ArrayListTest](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/interview/daybyday/ArrayListTest.java)

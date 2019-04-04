@@ -15,7 +15,6 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
-import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
 
 import org.junit.Test;
@@ -37,26 +36,31 @@ import org.junit.Test;
 public class SerializableTest {
 
 	@Test
-	public void run() throws IOException{
+	public void writeObjectTest() throws IOException{
 		FileOutputStream out=new FileOutputStream("bin.bin");
 		ObjectOutputStream objectOutput=new ObjectOutputStream(out);
 		User user=new User();
 		user.setName("阿尔法");
 		objectOutput.writeObject(user);
+		objectOutput.flush();
+		objectOutput.close();
 	} 
 	
 	
 	@Test
-	public void run2() throws IOException, ClassNotFoundException{
+	public void readObjectTest() throws IOException, ClassNotFoundException{
 		FileInputStream in=new FileInputStream("bin.bin");
 		ObjectInputStream objectInputStream=new ObjectInputStream(in);
 		User user=(User)objectInputStream.readObject();
+		objectInputStream.close();
 		System.out.println(user.getName());
 		
 	}
 }
 
 class User implements java.io.Serializable{
+
+	private static final long serialVersionUID = 6021962974777089167L;
 	private String name;
 	public String getName() {
 		return name;
@@ -64,11 +68,6 @@ class User implements java.io.Serializable{
 	
 	public void setName(String name) {
 		this.name=name;
-	}
-	
-	private void readObject(java.io.ObjectInputStream in) throws ClassNotFoundException, IOException {
-		in.defaultReadObject();
-		Runtime.getRuntime().exec("/Applications/Calculator.app/Contents/MacOs/Calculator");
 	}
 	
 }

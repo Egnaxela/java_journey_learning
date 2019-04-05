@@ -11,6 +11,7 @@
 
 package com.test;
 
+
 /**  
  * Description:   
  * Copyright:   Copyright (c)2017 
@@ -26,15 +27,20 @@ package com.test;
  */
 
 public class RuntimeTest {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		SecurityManager sc=System.getSecurityManager();
 		if(sc!=null) {
 			sc.checkExit(1);
 		}
 		Runtime runtime=Runtime.getRuntime();
-		System.out.println("可用处理器数目: "+Runtime.getRuntime().availableProcessors());
+		System.out.println("可用处理器数目: "+runtime.availableProcessors());
 		System.out.println("JVM中内存总量: "+runtime.totalMemory()/1024/1024+"MB");
+		
+		String [] cmd={"cmd","/C","start copy exe1 exe2"}; 
+		Runtime.getRuntime().exec(cmd);
+		Runtime.getRuntime().exec("calc");
+		
 		Runtime.getRuntime().exit(1);
-		System.out.println(runtime.totalMemory());
+		System.out.println("JVM中内存总量:"+runtime.totalMemory());
 	}
 }

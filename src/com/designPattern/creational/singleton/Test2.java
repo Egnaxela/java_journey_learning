@@ -11,7 +11,6 @@
 
 package com.designPattern.creational.singleton;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -39,8 +38,10 @@ public class Test2 {
 		HungrySingleton instance=HungrySingleton.getInstance();
 		ObjectOutputStream oos=new ObjectOutputStream(new FileOutputStream("singleton_file.file"));
 		oos.writeObject(instance);
+		oos.close();
 		ObjectInputStream ois=new ObjectInputStream(new FileInputStream("singleton_file.file"));
 		HungrySingleton newInstance=(HungrySingleton) ois.readObject();
+		ois.close();
 		System.out.println(instance);
 		System.out.println(newInstance);
 		System.out.println(instance==newInstance);

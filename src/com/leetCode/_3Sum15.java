@@ -127,17 +127,5 @@ public class _3Sum15 {
 	}
 	
 	
-	public static List<List<Integer>> threeSum4(int[] nums){
-		List<List<Integer>> result=new ArrayList<List<Integer>>();
-		for(int i=0;i<nums.length;i++) {
-			int pre=0,bre;
-		}
-		
-		
-		
-		
-		return result;
-	}
-	
 	
 }

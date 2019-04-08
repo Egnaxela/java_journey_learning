@@ -37,6 +37,7 @@ import com.sun.org.apache.bcel.internal.generic.NEW;
 
 public class Test4 {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException, Exception{
 		EnumSingleton instance=EnumSingleton.getInstance();
 		instance.setData(new Object());
@@ -52,6 +53,7 @@ public class Test4 {
 //		System.out.println(instance.getData());
 //		System.out.println(instance2.getData());
 //		System.out.println(instance.getData()==instance2.getData());
+		
 		
 		Constructor constructor=EnumSingleton.class.getDeclaredConstructor(String.class,int.class);
 		constructor.setAccessible(true);

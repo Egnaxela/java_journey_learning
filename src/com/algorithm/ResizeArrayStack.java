@@ -29,6 +29,7 @@ import java.util.Iterator;
 
 //https://github.com/CyC2018/InterviewNotes/blob/master/notes/%E7%AE%97%E6%B3%95.md#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E5%9F%BA%E7%A1%80
 //算法 Interview
+@SuppressWarnings("unchecked")
 public class ResizeArrayStack<Item> implements Iterable<Item> {
 
 	private Item[] a=(Item[])new Object[1];
@@ -50,6 +51,7 @@ public class ResizeArrayStack<Item> implements Iterable<Item> {
 	}
 	
 	private void resize(int size) {
+		
 		Item[] temp=(Item[]) new Object[size];
 		for(int i=0;i<N;i++) {
 			temp[i]=a[i];

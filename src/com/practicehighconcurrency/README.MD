@@ -1,6 +1,8 @@
 # 实战Java高并发程序设计
 
 ## 第二章
+线程是轻量级的进程，是程序执行的最小单位。
+
 Thread.sleep()签名如下：<br/>
 ```java
 public static native void sleep(long millis) throws InterruptedException; 
@@ -17,6 +19,7 @@ public final void wait() throws InterruptedException{
 非线性安全的Collection 如[ArrayListMultiThread](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/practicehighconcurrency/collections/ArrayListMultiThread.java)  [HashMapMultiThread](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/practicehighconcurrency/collections/HashMapMultiThread.java)
 
 ## 第三章
+可重入锁，也叫做递归锁，指的是在同一线程内，外层函数获得锁之后，内层递归函数仍然可以获取到该锁。换一种说法：同一个线程再次进入同步代码时，可以使用自己已获取到的锁.
 #### synchronized内部锁 与  ReentrantLock重入锁
 异同：
 
@@ -62,6 +65,10 @@ Semaphore 实际是对锁的扩展，无论是内部锁还是重入锁一次都�
 
 #### ReadWriteLock读写分离锁 
 理论上所有读之间、读与写之间、写和写之间都是串行操作。如果在系统中读操作次数远大于写操作，则读写锁可以发挥最大作用。
+
+#### CountDownLatch 倒计时器
+用来控制线程等待，让线程等待直到倒计时结束后再执行  
+[CountDownLatchDemo.java](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/practicehighconcurrency/chapter3/CountDownLatchDemo.java)
 
 
 

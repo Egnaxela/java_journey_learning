@@ -11,6 +11,10 @@
 
 package com.test;
 
+import java.lang.Thread.State;
+
+import org.junit.Test;
+
 /**  
  * Description:   
  * Copyright:   Copyright (c)2017 
@@ -47,5 +51,23 @@ public class ThreadTest {
 			return;
 		}
 		
+	}
+	
+	@Test
+	public void  test() {
+		State state=new Thread().getState();
+		for(State s:state.values()) {
+			System.out.println(s);
+		}
+		
+		Thread t1=new Thread() {
+			@Override
+			public void run() {
+				System.out.println("Hi "+Thread.currentThread().getName());
+				
+			}
+		};
+		
+		t1.start();
 	}
 }

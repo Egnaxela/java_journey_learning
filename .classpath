@@ -63,6 +63,8 @@
 	<classpathentry kind="lib" path="lib/spring-boot-autoconfigure-2.1.3.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-boot-2.1.3.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/net.jar"/>
+	<classpathentry kind="lib" path="lib/gson-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/byte-buddy-1.9.12.jar" sourcepath="E:/OpenSource/byte-buddy-1.9.12.jar.src.zip"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/spring-aop"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/spring-aspects"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/spring-beans"/>

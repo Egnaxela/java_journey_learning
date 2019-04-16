@@ -73,3 +73,6 @@ Semaphore 实际是对锁的扩展，无论是内部锁还是重入锁一次都�
 #### LockSupport 线程阻塞工具类
 线程阻塞工具类，可以在线程内任意位置让线程阻塞
 
+
+扩展线程池：如监控每一个任务的开始、结束时间 [ExThreadPoolDemo.java](https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/practicehighconcurrency/chapter3/ExThreadPoolDemo.java)
+

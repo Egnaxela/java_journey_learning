@@ -40,20 +40,20 @@ import static net.bytebuddy.matcher.ElementMatchers.named;
 
 public class ByteBuddyTest {
 	
-//	@Test
-//	public void test() throws Exception {
-//		String str="Hello ByteBuddy";
-//		DynamicType.Unloaded<Object> unloaded=new ByteBuddy()
-//				.subclass(Object.class)
-//				.method(named("str"))
-//				.intercept(FixedValue.value(str))
-//				.make();
-//		Class<? extends Object> clazz=unloaded
-//				.load(ByteBuddyTest.class.getClassLoader())
-//				.getLoaded();
-//		Assert.assertEquals(clazz.newInstance().toString(), str);
-//		
-//	}
+	@Test
+	public void test() throws Exception {
+		String str="Hello ByteBuddy";
+		DynamicType.Unloaded<Object> unloaded=new ByteBuddy()
+				.subclass(Object.class)
+				.method(named("str"))
+				.intercept(FixedValue.value(str))
+				.make();
+		Class<? extends Object> clazz=unloaded
+				.load(ByteBuddyTest.class.getClassLoader())
+				.getLoaded();
+		Assert.assertEquals(clazz.newInstance().toString(), str);
+		
+	}
 	
 	
     @Test

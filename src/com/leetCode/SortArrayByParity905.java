@@ -54,6 +54,7 @@ public class SortArrayByParity905 {
 	public static void main(String[] args) {
 		int[] A= {3,1,2,4,7,8};
 		System.out.println(Arrays.toString(sortArrayByParity(A)));
+		System.out.println(Arrays.toString(sortArrayByParity2(A)));
 	}
 	
 	/*
@@ -71,5 +72,19 @@ public class SortArrayByParity905 {
 			}
 		}
 		return B;
+	}
+	
+	/*
+	 * 不新建数组，使用组内元素调换
+	 */
+	public static int[] sortArrayByParity2(int[] A) {
+		for(int i=0,j=0;i<A.length;i++) {
+			if(A[i]%2==0) {
+				int temp=A[j];
+				A[j++]=A[i];
+				A[i]=temp;
+			}
+		}
+		return A;
 	}
 }

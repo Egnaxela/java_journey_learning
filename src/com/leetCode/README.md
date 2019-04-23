@@ -1,14 +1,15 @@
 #### Array
 
-| #    | Title                                    | Grade                                    |
+| #    | Title                                    | Difficulty                               |
 | :--- | :--------------------------------------- | :--------------------------------------- |
-|      |                                          |                                          |
+| 905  |    [Sort Array By Parity][905]           | Easy                                     |
 | 410  | [Split Array Largest Sum][410]           | Hard                                     |
 
+[905]: https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/leetCode/SortArrayByParity905.java
 [410]: https://github.com/Egnaxela/java_journey_learning/blob/master/src/com/leetCode/SplitArrayLargestSum410.java
 
 #### Linked List
-| #    | Title                                    | Grade                                    |
+| #    | Title                                    | Difficulty                               |
 | :--- | :--------------------------------------- | :--------------------------------------- |
 | 206  | [Reverse Linked List][206]               | Easy                                     |
 

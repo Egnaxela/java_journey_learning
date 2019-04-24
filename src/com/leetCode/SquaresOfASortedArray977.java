@@ -64,14 +64,12 @@ public class SquaresOfASortedArray977 {
 	}
 
 	/*
-	 * 
+	 * 对数组元素平方后进行插入排序
 	 */
 	public static int[] sortedSquares(int[] A) {
 		for (int i = 0; i < A.length; i++) {
-			A[i] = A[i] * A[i];
-			int key = A[i];
+			int key = A[i] * A[i];
 			int j = i - 1;
-
 			while (j >= 0 && A[j] > key) {
 				A[j + 1] = A[j];
 				j--;
@@ -82,13 +80,14 @@ public class SquaresOfASortedArray977 {
 	}
 
 	/*
-	 * 
+	 * 将首尾元素平方后对比插入 
+	 * 时间复杂度O(n)
 	 */
 	public static int[] sortedSquares2(int[] A) {
-		int n = A.length;
-		int[] result = new int[n];
-		int i = 0, j = n - 1;
-		for (int p = n - 1; p >= 0; p--) {
+		int length = A.length;
+		int[] result = new int[length];
+		int i = 0, j = length - 1;
+		for (int p = length - 1; p >= 0; p--) {
 			if (Math.abs(A[i]) > Math.abs(A[j])) {
 				result[p] = A[i] * A[i];
 				i++;

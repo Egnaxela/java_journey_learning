@@ -84,18 +84,20 @@ public class SquaresOfASortedArray977 {
 	 * 时间复杂度O(n)
 	 */
 	public static int[] sortedSquares2(int[] A) {
-		int length = A.length;
-		int[] result = new int[length];
-		int i = 0, j = length - 1;
-		for (int p = length - 1; p >= 0; p--) {
-			if (Math.abs(A[i]) > Math.abs(A[j])) {
-				result[p] = A[i] * A[i];
-				i++;
-			} else {
-				result[p] = A[j] * A[j];
-				j--;
-			}
-		}
-		return result;
+        int[] result = new int[A.length];
+        int p = A.length - 1;
+
+        for (int i = 0, j = A.length - 1; p >= 0;p--) {
+            int left = A[i] * A[i];
+            int right = A[j] * A[j];
+            if (left >= right) {
+                result[p] = left;
+                i++;
+            } else {
+                result[p] = right;
+                j--;
+            }
+        }
+        return result;
 	}
 }

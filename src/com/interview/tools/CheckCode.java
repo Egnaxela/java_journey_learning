@@ -76,20 +76,5 @@ public class CheckCode {
 			e.printStackTrace();
 		}
 	}
-	
-	/**
-	 * 将字节码转换为16进制
-	* <p>描述:</p>
-	* @param b
-	* @return
-	* @author Pluto
-	 */
-	public static String toHexString(byte b[]) {
-		StringBuilder sb=new StringBuilder();
-		for(byte ab:b) {
-			sb.append(Integer.toHexString(ab&0xFF));
-		}
-		return sb.toString();
-	}
 
 }
